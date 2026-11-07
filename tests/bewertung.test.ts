@@ -46,3 +46,20 @@ describe('bewerte', () => {
     expect(baujahrKlasse()).toBe('unbekannt');
   });
 });
+
+describe('Deckungsprinzip', () => {
+  it('Mindestgebot aus eingetragenen Hypotheken hebt das Standardgebot an', () => {
+    const b = bewerte({ ...basis, verwertung: { durch: 'pfand', rang: 2 } }, STANDARD_CONFIG, { vorgehendePfand: 700_000 });
+    expect(b.mindestgebot.wert).toBe(700_000);
+    expect(b.gebot.wert).toBe(700_000);
+    expect(b.hinweise.join(' ')).toMatch(/2\. Pfandstelle/);
+  });
+  it('eigenes Gebot unter dem Mindestgebot gibt einen Hinweis', () => {
+    const b = bewerte(basis, STANDARD_CONFIG, { vorgehendePfand: 700_000, gebot: 500_000 });
+    expect(b.gebot.wert).toBe(500_000);
+    expect(b.hinweise.join(' ')).toMatch(/unter dem Mindestgebot/);
+  });
+  it('1. Pfandstelle → Mindestgebot 0', () => {
+    expect(bewerte({ ...basis, verwertung: { durch: 'pfand', rang: 1 } }).mindestgebot.wert).toBe(0);
+  });
+});

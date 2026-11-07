@@ -72,15 +72,17 @@ export async function shabXml(id) {
 
 /** Adresse oder Gemeinde → Koordinaten (WGS84) und EGID, falls die Adresse exakt gefunden wurde. */
 export async function geokodiere(adresse, gemeinde) {
-  if (adresse?.strasse && adresse?.plz) {
-    const q = new URLSearchParams({ searchText: `${adresse.strasse} ${adresse.plz} ${adresse.ort ?? ''}`, type: 'locations', origins: 'address', sr: '4326', limit: '1' });
+  if (adresse?.strasse && (adresse.plz || adresse.ort)) {
+    const q = new URLSearchParams({ searchText: `${adresse.strasse} ${adresse.plz ?? ''} ${adresse.ort ?? ''}`.replace(/\s+/g, ' ').trim(), type: 'locations', origins: 'address', sr: '4326', limit: '1' });
     const r = await hole(`${GEO}/api/SearchServer?${q}`);
     const a = r?.results?.[0]?.attrs;
     if (a?.lat) return { lat: a.lat, lon: a.lon, genau: true, egid: String(a.featureId ?? '').split('_')[0] || undefined };
   }
   const ort = adresse?.ort ?? gemeinde;
-  if (ort) {
-    const q = new URLSearchParams({ searchText: `${adresse?.plz ?? ''} ${ort}`.trim(), type: 'locations', origins: 'zipcode,gg25', sr: '4326', limit: '1' });
+  // «La Baroche-Charmoille» → zuerst ganz, dann nur «La Baroche»
+  const versuche = ort ? [`${adresse?.plz ?? ''} ${ort}`.trim(), ort.split('-')[0].trim()] : [];
+  for (const text of [...new Set(versuche)]) {
+    const q = new URLSearchParams({ searchText: text, type: 'locations', origins: 'zipcode,gg25', sr: '4326', limit: '1' });
     const r = await hole(`${GEO}/api/SearchServer?${q}`);
     const a = r?.results?.[0]?.attrs;
     if (a?.lat) return { lat: a.lat, lon: a.lon, genau: false };
@@ -95,32 +97,78 @@ const ENERGIE = {
 };
 const FOSSIL = new Set([7520, 7530, 7560]);
 
+// GWR-Bauperiode (gbaup) → mittleres Baujahr, falls kein genaues Baujahr erfasst ist
+const BAUPERIODE = { 8011: 1900, 8012: 1932, 8013: 1953, 8014: 1965, 8015: 1975, 8016: 1983, 8017: 1988, 8018: 1993, 8019: 1998, 8020: 2003, 8021: 2008, 8022: 2013, 8023: 2018 };
+
+// GWR-Gebäudeklasse (gklas) → Kategorie der App
+export function kategorieAusKlasse(gklas) {
+  const k = Number(gklas);
+  if (k === 1110 || k === 1121) return 'EFH';
+  if (k === 1122 || k === 1130) return 'MFH';
+  if (k === 1242) return 'Sonstiges';
+  if (k >= 1211 && k <= 1278) return 'Gewerbe';
+  return undefined;
+}
+
 const zahl = (v) => (v == null || v === '' ? undefined : Number(v)) || undefined;
 const liste = (v) => (Array.isArray(v) ? v : v == null ? [] : String(v).split(/[;,]/)).map(Number).filter((n) => n > 0);
 
-/** Gebäudedaten aus dem GWR (Baujahr, Geschosse, Wohnungen, Fläche, Heizung). */
-export async function gebaeude(egid, kategorie) {
+const roh = (v) => (Array.isArray(v) ? v : v == null ? [] : String(v).split(/[;,]/));
+
+/**
+ * Welche Wohnung im Gebäude wird versteigert? Vergleicht Stockwerk, Lage (links/rechts/mitte) und
+ * Zimmerzahl aus der Publikation mit den Wohnungen im GWR. Liefert die Fläche nur, wenn sie eindeutig ist.
+ */
+export function passendeWohnung(a, { lage, zimmer } = {}) {
+  const stock = roh(a.wstwk).map(Number);
+  const bez = roh(a.wbez).map((x) => String(x ?? '').toLowerCase());
+  const zim = roh(a.wazim).map(Number);
+  const fl = roh(a.warea).map(Number);
+  const bj = roh(a.wbauj).map(Number);
+  let idx = fl.map((_, i) => i).filter((i) => fl[i] > 0);
+  if (!idx.length) return undefined;
+  const filter = (f) => { const n = idx.filter(f); if (n.length) idx = n; return n.length > 0; };
+  let kriterien = 0;
+  if (zimmer) kriterien += filter((i) => zim[i] === Math.floor(zimmer) || zim[i] === Math.ceil(zimmer)) ? 1 : 0;
+  if (lage?.stock != null) kriterien += filter((i) => stock[i] === lage.stock) ? 1 : 0;
+  if (lage?.seite) kriterien += filter((i) => bez[i].includes(lage.seite)) ? 1 : 0;
+  const flaechen = [...new Set(idx.map((i) => fl[i]))];
+  if (flaechen.length !== 1 || (kriterien === 0 && fl.length > 1)) return undefined;
+  return { wohnflaeche: flaechen[0], baujahr: bj[idx[0]] > 0 ? bj[idx[0]] : undefined };
+}
+
+/** Gebäudedaten und Koordinaten aus dem GWR (Baujahr, Geschosse, Wohnungen, Fläche, Heizung). */
+export async function gebaeude(egid, kategorie, wohnung = {}) {
   if (!egid) return undefined;
-  const r = await hole(`${GEO}/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/${egid}_0?returnGeometry=false&lang=de`);
-  const a = r?.feature?.attributes ?? r?.feature?.properties;
+  const r = await hole(`${GEO}/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/${egid}_0?returnGeometry=true&sr=4326&lang=de`);
+  const f = r?.feature;
+  const a = f?.attributes ?? f?.properties;
   if (!a) return undefined;
   const flaechen = liste(a.warea);
   const zimmer = liste(a.wazim);
   const code = zahl(a.genh1);
+  const wBaujahre = liste(a.wbauj);
   const g = {
     egid: String(egid),
-    baujahr: zahl(a.gbauj),
+    baujahr: zahl(a.gbauj) ?? (wBaujahre.length ? Math.min(...wBaujahre) : undefined),
     geschosse: zahl(a.gastw),
     wohnungen: zahl(a.ganzwhg),
     grundflaeche: zahl(a.garea),
     heizung: code ? ENERGIE[code] ?? String(code) : a.genh1_de ?? undefined,
     fossil: code ? FOSSIL.has(code) : undefined,
+    klasse: zahl(a.gklas),
   };
-  // Bei Stockwerkeigentum wissen wir nicht, welche Wohnung versteigert wird.
+  if (!g.baujahr && BAUPERIODE[a.gbaup]) { g.baujahr = BAUPERIODE[a.gbaup]; g.baujahrUngefaehr = true; }
   if (kategorie !== 'ETW' && flaechen.length) g.wohnflaeche = flaechen.reduce((s, x) => s + x, 0);
-  if (kategorie === 'ETW' && flaechen.length === 1) g.wohnflaeche = flaechen[0];
   if (kategorie !== 'ETW' && zimmer.length) g.zimmer = zimmer.reduce((s, x) => s + x, 0);
-  return g;
+  if (kategorie === 'ETW') {
+    const w = passendeWohnung(a, wohnung);
+    if (w) g.wohnflaeche = w.wohnflaeche;
+  }
+  const x = f.geometry?.x ?? f.geometry?.coordinates?.[0] ?? f.bbox?.[0];
+  const y = f.geometry?.y ?? f.geometry?.coordinates?.[1] ?? f.bbox?.[1];
+  const koordinaten = x > 5 && x < 11 && y > 45 && y < 48 ? { lat: y, lon: x } : undefined;
+  return { gebaeude: g, koordinaten, adresse: a.strname_deinr ? { strasse: a.strname_deinr, plz: String(a.dplz4 ?? ''), ort: a.dplzname ?? a.ggdename } : undefined };
 }
 
 export { warte };

@@ -24,6 +24,20 @@ export interface Gebaeude {
   zimmer?: number;
   heizung?: string;
   fossil?: boolean;
+  /** true = nur Bauperiode im GWR, Baujahr ist deren Mitte */
+  baujahrUngefaehr?: boolean;
+  /** GWR-Gebäudeklasse */
+  klasse?: number;
+}
+
+/**
+ * Wer verlangt die Verwertung? Bestimmt das Mindestgebot (Deckungsprinzip, Art. 126/142a SchKG).
+ * pfand = Grundpfandgläubiger (rang = Pfandstelle), pfaendung = gewöhnlicher Gläubiger, konkurs = Konkursamt.
+ */
+export interface Verwertung {
+  durch: 'pfand' | 'pfaendung' | 'konkurs';
+  rang?: number;
+  gesetzlich?: boolean;
 }
 
 export interface Objekt {
@@ -37,6 +51,7 @@ export interface Objekt {
   grundbuch?: string;
   grundstueckNr: string[];
   egrid: string[];
+  egid?: string[];
   adresse?: { strasse?: string; plz?: string; ort?: string };
   lat?: number;
   lon?: number;
@@ -50,6 +65,9 @@ export interface Objekt {
   besichtigung?: string;
   auflage?: string;
   eingabefrist?: string;
+  verwertung?: Verwertung;
+  /** Stockwerk (GWR-Code, 3100 = EG) und Lage einer Eigentumswohnung */
+  lage?: { stock?: number; seite?: string };
   amt: { name: string; adresse?: string; email?: string; telefon?: string; web?: string };
   gebaeude?: Gebaeude;
   quelle: { nummer: string; id: string; url: string; xml: string; datum: string; sprache: string };
@@ -60,5 +78,6 @@ export interface Objekt {
 export interface Datenbestand {
   stand: string;
   demo: boolean;
+  version?: number;
   objekte: Objekt[];
 }

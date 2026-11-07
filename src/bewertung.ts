@@ -12,6 +12,8 @@ export interface Eingaben {
   preisProM2?: number;
   renovation?: number;
   mieteJahr?: number;
+  /** Pfandforderungen, die dem betreibenden Gläubiger im Rang vorgehen (aus dem Lastenverzeichnis) */
+  vorgehendePfand?: number;
 }
 
 export type Quelle = 'Eingabe' | 'Publikation' | 'Gebäuderegister' | 'Schätzung' | 'Annahme';
@@ -25,6 +27,8 @@ export type Urteil = 'lohnend' | 'pruefen' | 'eher-nicht' | 'unklar';
 
 export interface Bewertung {
   gebot: Posten;
+  /** Tiefstes zulässiges Gebot nach Deckungsprinzip, soweit bekannt */
+  mindestgebot: Posten<number | undefined>;
   nebenkosten: number;
   wohnflaeche: Posten<number | undefined>;
   baujahr: Posten<number | undefined>;
@@ -82,12 +86,24 @@ export function bewerte(o: Objekt, c: BewertungsConfig = STANDARD_CONFIG, e: Ein
   let bekannt = 0;
   const g = o.gebaeude;
 
+  // Mindestgebot (Deckungsprinzip): nur bekannt, wenn eingetragen oder bei Betreibung aus 1. Pfandstelle
+  const v = o.verwertung;
+  const mindestgebot: Posten<number | undefined> = e.vorgehendePfand != null
+    ? { wert: e.vorgehendePfand, quelle: 'Eingabe' }
+    : v?.durch === 'pfand' && v.rang === 1 ? { wert: 0, quelle: 'Publikation' } : { wert: undefined, quelle: 'Annahme' };
+
   // Gebot
-  const gebot: Posten = e.gebot != null
+  let gebot: Posten = e.gebot != null
     ? { wert: e.gebot, quelle: 'Eingabe' }
     : { wert: Math.round((o.schaetzung ?? 0) * c.zuschlagFaktor), quelle: o.schaetzung ? 'Publikation' : 'Annahme' };
   if (o.schaetzung) bekannt++;
   else hinweise.push('Keine betreibungsamtliche Schätzung gefunden – Gebot bitte selbst eintragen.');
+  if (mindestgebot.wert && gebot.wert < mindestgebot.wert) {
+    if (e.gebot != null) hinweise.push(`Dein Gebot liegt unter dem Mindestgebot von CHF ${mindestgebot.wert.toLocaleString('de-CH')} – dafür gibt es keinen Zuschlag.`);
+    else gebot = { wert: mindestgebot.wert, quelle: mindestgebot.quelle };
+  }
+  const vh = verwertungHinweis(o);
+  if (vh) hinweise.push(vh);
 
   // Wohnfläche
   let wohnflaeche: Posten<number | undefined>;
@@ -165,10 +181,32 @@ export function bewerte(o: Objekt, c: BewertungsConfig = STANDARD_CONFIG, e: Ein
   }
 
   return {
-    gebot, nebenkosten, wohnflaeche, baujahr, preisProM2, renovation, marktwert,
+    gebot, mindestgebot, nebenkosten, wohnflaeche, baujahr, preisProM2, renovation, marktwert,
     investition, verkaufskosten, risikoabschlag, gewinn, renditeProzent,
     mieteJahr, bruttoRendite, score, urteil, datenqualitaet, hinweise,
   };
+}
+
+/** Kurztext: wer verlangt die Verwertung? */
+export function verwertungText(o: Objekt): string | undefined {
+  const v = o.verwertung;
+  if (!v) return undefined;
+  if (v.durch === 'konkurs') return 'Konkursamt (Konkursverfahren)';
+  if (v.durch === 'pfaendung') return 'Gläubiger aus einer Pfändung';
+  if (v.gesetzlich) return 'Gläubiger mit gesetzlichem Grundpfandrecht';
+  return v.rang ? `Grundpfandgläubiger im ${v.rang}. Rang` : 'Grundpfandgläubiger';
+}
+
+/** Was bedeutet der Verwertungsgrund für das Mindestgebot? */
+export function verwertungHinweis(o: Objekt): string | undefined {
+  const v = o.verwertung;
+  if (!v) return undefined;
+  if (v.durch === 'konkurs') return 'Konkursamtliche Steigerung: In der Regel gilt kein Deckungsprinzip, der Zuschlag geht ans höchste Gebot. Hypotheken werden aus dem Erlös bezahlt; nicht fällige können laut Steigerungsbedingungen überbunden werden.';
+  if (v.durch === 'pfaendung') return 'Verwertung auf Verlangen eines Pfändungsgläubigers: Das Gebot muss alle Grundpfandforderungen decken (Deckungsprinzip). Das Mindestgebot kann deshalb hoch sein – Lastenverzeichnis anfordern und unten eintragen.';
+  if (v.rang === 1) return 'Betrieben wird aus der 1. Pfandstelle: Es gehen keine Pfandrechte vor, ein Zuschlag unter der Schätzung ist möglich.';
+  if (v.rang && v.rang > 1) return `Betrieben wird aus der ${v.rang}. Pfandstelle: Das Gebot muss die Hypotheken im 1.${v.rang > 2 ? ` bis ${v.rang - 1}.` : ''} Rang decken (Deckungsprinzip). Beträge stehen im Lastenverzeichnis.`;
+  if (v.gesetzlich) return 'Verwertung wegen eines gesetzlichen Pfandrechts (z. B. Stockwerkeigentümergemeinschaft, Handwerker, Steuern). Ob Hypotheken vorgehen und das Mindestgebot erhöhen, zeigt das Lastenverzeichnis.';
+  return 'Verwertung durch einen Grundpfandgläubiger. Vorgehende Hypotheken müssen gedeckt sein – Rang und Beträge im Lastenverzeichnis prüfen.';
 }
 
 export const URTEIL_TEXT: Record<Urteil, string> = {

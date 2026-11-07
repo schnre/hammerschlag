@@ -1,6 +1,6 @@
 import type L from 'leaflet';
 import { KATEGORIEN, type Objekt } from '../typen';
-import { URTEIL_TEXT, handaenderungssatz, type Bewertung, type Eingaben, type Posten } from '../bewertung';
+import { URTEIL_TEXT, handaenderungssatz, verwertungText, type Bewertung, type Eingaben, type Posten } from '../bewertung';
 import { bewertung, config, setzeEingaben, setzeNotiz, toggleMerk, zustand } from '../zustand';
 import { chf, datum, esc, inTagen, zahlFmt } from '../format';
 import { adresseText, aktualisiereMerkZahl, herunterladen, ics, leer, statusChips } from './teile';
@@ -71,6 +71,7 @@ function rechnung(o: Objekt, b: Bewertung): string {
       <div class="balken-legende"><span><i class="b-gebot"></i>Gebot</span><span><i class="b-neben"></i>Nebenkosten</span><span><i class="b-reno"></i>Renovation</span><span><i class="b-risiko"></i>Verkauf & Risiko</span><span><i class="b-wert"></i>Marktwert</span></div>
     </div>
     <table class="rechnung">
+      ${b.mindestgebot.wert ? zeile('Mindestgebot', b.mindestgebot.wert, 'still', 'Deckungsprinzip') : ''}
       ${zeile('Gebot / Zuschlag', b.gebot.wert)}
       ${zeile('Nebenkosten Erwerb', b.nebenkosten, '', `${(satz * 100).toFixed(1)} %`)}
       ${zeile('Renovation', b.renovation.wert)}
@@ -95,7 +96,7 @@ export function detail(app: HTMLElement, id: string): void {
   const termine: [string, string | undefined, string?][] = [
     ['Steigerung', o.steigerung?.datum ? `${datum(o.steigerung.datum)}${o.steigerung.zeit ? `, ${o.steigerung.zeit} Uhr` : ''}` : undefined, o.steigerung?.ort],
     ['Besichtigung', o.besichtigung],
-    ['Auflage Steigerungsbedingungen', o.auflage, 'Beim Amt einsehbar, Beschwerdefrist läuft ab Auflage'],
+    ['Auflage Lastenverzeichnis & Steigerungsbedingungen', o.auflage, 'Beim Amt einsehbar – hier stehen die Hypotheken und übrigen Lasten'],
     ['Eingabefrist Gläubiger', o.eingabefrist ? datum(o.eingabefrist) : undefined],
   ];
 
@@ -136,6 +137,7 @@ export function detail(app: HTMLElement, id: string): void {
             <dt>Grundstück-Nr.</dt><dd>${esc(o.grundstueckNr.join(', ') || '–')}</dd>
             ${o.egrid.length ? `<dt>E-GRID</dt><dd><code>${esc(o.egrid.join(', '))}</code></dd>` : ''}
             <dt>Verfahren</dt><dd>${o.art === 'konkurs' ? 'Konkursamtliche Steigerung' : 'Betreibungsamtliche Steigerung'}</dd>
+            ${verwertungText(o) ? `<dt>Verwertung verlangt</dt><dd>${esc(verwertungText(o)!)}</dd>` : ''}
             <dt>Publiziert</dt><dd>${datum(o.quelle.datum, false)} · ${esc(o.quelle.nummer)}</dd>
           </dl>
         </section>
@@ -148,7 +150,7 @@ export function detail(app: HTMLElement, id: string): void {
         <section class="block">
           <h2>Gebäude <small class="still">Gebäude- und Wohnungsregister</small></h2>
           ${g ? `<dl class="eckdaten">
-            ${g.baujahr ? `<dt>Baujahr</dt><dd>${g.baujahr}</dd>` : ''}
+            ${g.baujahr ? `<dt>Baujahr</dt><dd>${g.baujahrUngefaehr ? `ca. ${g.baujahr} <small class="still">(Bauperiode)</small>` : g.baujahr}</dd>` : ''}
             ${g.geschosse ? `<dt>Geschosse</dt><dd>${g.geschosse}</dd>` : ''}
             ${g.wohnungen ? `<dt>Wohnungen im Gebäude</dt><dd>${g.wohnungen}</dd>` : ''}
             ${g.grundflaeche ? `<dt>Gebäudegrundfläche</dt><dd>${zahlFmt(g.grundflaeche, 'm²')}</dd>` : ''}
@@ -167,8 +169,10 @@ export function detail(app: HTMLElement, id: string): void {
       <section class="block">
         <h2>Renovations- und Renditerechner</h2>
         <p class="still">Leere Felder verwenden den grau angezeigten Wert. Deine Eingaben bleiben in diesem Browser gespeichert.</p>
+        ${o.art !== 'konkurs' ? '<p class="still">Hypotheken kosten dich nichts zusätzlich: Sie werden aus deinem Zuschlag bezahlt. Vorgehende Hypotheken bestimmen aber das Mindestgebot – die Beträge stehen im Lastenverzeichnis, das du beim Amt anfordern kannst.</p>' : ''}
         <form class="rechner" id="rechner">
           ${rechnerFeld('gebot', 'Gebot', b.gebot, 'CHF', e.gebot)}
+          ${o.art !== 'konkurs' ? rechnerFeld('vorgehendePfand', 'Vorgehende Hypotheken (Lastenverzeichnis)', b.mindestgebot, 'CHF', e.vorgehendePfand) : ''}
           ${rechnerFeld('wohnflaeche', 'Wohnfläche', b.wohnflaeche, 'm²', e.wohnflaeche)}
           ${rechnerFeld('baujahr', 'Baujahr', b.baujahr, '', e.baujahr)}
           ${rechnerFeld('preisProM2', 'Marktpreis renoviert', b.preisProM2, 'CHF/m²', e.preisProM2)}
@@ -239,7 +243,7 @@ export function detail(app: HTMLElement, id: string): void {
     const nb = bewertung(o);
     app.querySelector('#rechnung')!.innerHTML = rechnung(o, nb);
     // Platzhalter abhängiger Felder (Renovation, Miete) aktualisieren
-    const ph: Partial<Record<keyof Eingaben, number | undefined>> = { renovation: nb.renovation.wert, mieteJahr: nb.mieteJahr?.wert, preisProM2: nb.preisProM2.wert };
+    const ph: Partial<Record<keyof Eingaben, number | undefined>> = { gebot: nb.gebot.wert, renovation: nb.renovation.wert, mieteJahr: nb.mieteJahr?.wert, preisProM2: nb.preisProM2.wert };
     for (const [k, v] of Object.entries(ph)) {
       const inp = form.querySelector<HTMLInputElement>(`[data-eingabe=${k}]`);
       if (inp) inp.placeholder = v != null ? String(Math.round(v)) : 'unbekannt';

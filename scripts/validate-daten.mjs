@@ -13,7 +13,8 @@ for (const o of d.objekte ?? []) {
   if (!o.kanton) console.warn(`Hinweis: ${o.id} ohne Kanton`);
   if (!['EFH', 'MFH', 'ETW', 'Grundstueck', 'Gewerbe', 'Sonstiges'].includes(o.kategorie)) fehler.push(`${o.id}: Kategorie ${o.kategorie}`);
   const text = JSON.stringify(o);
-  if (/Geburtsdatum|Heimatort|Staatsbürgerschaft|Date de naissance|Data di nascita/i.test(text)) fehler.push(`${o.id}: enthält Personendaten`);
+  if (/Geburtsdatum|Heimatort|Staatsbürgerschaft|Date de naissance|Data di nascita|Pfandeigentümer\w*\s*:|dateOfBirth/i.test(text)
+    || /eigentum (?:von|der|des) \p{Lu}/u.test(text)) fehler.push(`${o.id}: enthält Personendaten`);
 }
 if (fehler.length) { console.error(fehler.join('\n')); process.exit(1); }
 console.log(`Daten ok: ${d.objekte.length} Objekte${d.demo ? ' (Demo)' : ''}, Stand ${d.stand}`);
