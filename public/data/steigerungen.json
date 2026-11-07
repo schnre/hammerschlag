@@ -1,0 +1,1750 @@
+{
+ "stand": "2026-11-07T18:03:02.911Z",
+ "demo": true,
+ "objekte": [
+  {
+   "id": "SB01-DEMO1021",
+   "art": "betreibung",
+   "status": "vorbei",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 6½ Zimmer in Lugano",
+   "kanton": "TI",
+   "gemeinde": "Lugano",
+   "grundbuch": "Lugano",
+   "grundstueckNr": [
+    "4213"
+   ],
+   "egrid": [
+    "CH777305381776"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 22",
+    "plz": "6900",
+    "ort": "Lugano"
+   },
+   "lat": 45.9938916042624,
+   "lon": 8.936539489670507,
+   "genau": true,
+   "schaetzung": 855000,
+   "flaecheGrundstueck": 738,
+   "zimmer": 6.5,
+   "beschreibung": "Im Grundbuch Lugano\nGrundstück Nr. 4213, 738 m², Einfamilienhaus Vers.-Nr. 295, Feldstrasse 22, 6900 Lugano",
+   "steigerung": {
+    "datum": "2026-11-02",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 6900 Lugano"
+   },
+   "besichtigung": "19.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "8.10.2026 bis 18.10.2026",
+   "eingabefrist": "2026-10-23",
+   "amt": {
+    "name": "Betreibungsamt Lugano (Demo)",
+    "adresse": "6900 Lugano",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "9102546",
+    "baujahr": 1963,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 135,
+    "wohnflaeche": 216,
+    "heizung": "Heizöl",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1021",
+    "id": "demo-21",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-03",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1028",
+   "art": "betreibung",
+   "status": "vorbei",
+   "kategorie": "Gewerbe",
+   "titel": "Gewerbeobjekt in Schwyz",
+   "kanton": "SZ",
+   "gemeinde": "Schwyz",
+   "grundbuch": "Schwyz",
+   "grundstueckNr": [
+    "847"
+   ],
+   "egrid": [
+    "CH181409345696"
+   ],
+   "adresse": {
+    "strasse": "Kirchgasse 9",
+    "plz": "6430",
+    "ort": "Schwyz"
+   },
+   "lat": 47.015450265604585,
+   "lon": 8.665671203383218,
+   "genau": true,
+   "schaetzung": 1440000,
+   "flaecheGrundstueck": 1224,
+   "beschreibung": "Im Grundbuch Schwyz\nGrundstück Nr. 847, 1'224 m², Gewerbeobjekt Vers.-Nr. 166, Kirchgasse 9, 6430 Schwyz",
+   "steigerung": {
+    "datum": "2026-11-03",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 6430 Schwyz"
+   },
+   "besichtigung": "20.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "9.10.2026 bis 19.10.2026",
+   "eingabefrist": "2026-10-18",
+   "amt": {
+    "name": "Betreibungsamt Schwyz (Demo)",
+    "adresse": "6430 Schwyz",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "3169359",
+    "baujahr": 1978,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 355,
+    "wohnflaeche": 568,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1028",
+    "id": "demo-28",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-09-28",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1027",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Grundstueck",
+   "titel": "Grundstück in Delémont",
+   "kanton": "JU",
+   "gemeinde": "Delémont",
+   "grundbuch": "Delémont",
+   "grundstueckNr": [
+    "1768"
+   ],
+   "egrid": [
+    "CH352132491776"
+   ],
+   "adresse": {
+    "strasse": "Rosenweg 64",
+    "plz": "2800",
+    "ort": "Delémont"
+   },
+   "lat": 47.359050245957214,
+   "lon": 7.349275890470274,
+   "genau": true,
+   "schaetzung": 580000,
+   "flaecheGrundstueck": 547,
+   "beschreibung": "Im Grundbuch Delémont\nGrundstück Nr. 1768, 547 m², Wiese/Bauland, Rosenweg 64, 2800 Delémont",
+   "steigerung": {
+    "datum": "2026-11-07",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 2800 Delémont"
+   },
+   "besichtigung": "24.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "13.10.2026 bis 23.10.2026",
+   "eingabefrist": "2026-10-25",
+   "amt": {
+    "name": "Betreibungsamt Delémont (Demo)",
+    "adresse": "2800 Delémont",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1027",
+    "id": "demo-27",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-05",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1009",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt in Biel/Bienne",
+   "kanton": "BE",
+   "gemeinde": "Biel/Bienne",
+   "grundbuch": "Biel/Bienne",
+   "grundstueckNr": [
+    "1325"
+   ],
+   "egrid": [
+    "CH294883403824"
+   ],
+   "adresse": {
+    "strasse": "Sonnenrain 11",
+    "plz": "2502",
+    "ort": "Biel/Bienne"
+   },
+   "lat": 47.14170856701034,
+   "lon": 7.244228673936454,
+   "genau": true,
+   "schaetzung": 30000,
+   "flaecheGrundstueck": 897,
+   "beschreibung": "Im Grundbuch Biel/Bienne\nGrundstück Nr. 1325, Autoabstellplatz in Einstellhalle, Miteigentum 1/24, Sonnenrain 11, 2502 Biel/Bienne",
+   "steigerung": {
+    "datum": "2026-11-08",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 2502 Biel/Bienne"
+   },
+   "besichtigung": "25.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "14.10.2026 bis 24.10.2026",
+   "eingabefrist": "2026-10-21",
+   "amt": {
+    "name": "Betreibungsamt Biel/Bienne (Demo)",
+    "adresse": "2502 Biel/Bienne",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1009",
+    "id": "demo-9",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-01",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1010",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Aarau",
+   "kanton": "AG",
+   "gemeinde": "Aarau",
+   "grundbuch": "Aarau",
+   "grundstueckNr": [
+    "3070"
+   ],
+   "egrid": [
+    "CH409802450276"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 37",
+    "plz": "5000",
+    "ort": "Aarau"
+   },
+   "lat": 47.38694197745476,
+   "lon": 8.05387280589442,
+   "genau": true,
+   "schaetzung": 955000,
+   "flaecheGrundstueck": 806,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Aarau\nGrundstück Nr. 3070, 806 m², Einfamilienhaus Vers.-Nr. 533, Feldstrasse 37, 5000 Aarau",
+   "steigerung": {
+    "datum": "2026-11-08",
+    "zeit": "14:30",
+    "ort": "Gemeindesaal, 5000 Aarau"
+   },
+   "besichtigung": "25.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "14.10.2026 bis 24.10.2026",
+   "eingabefrist": "2026-10-24",
+   "amt": {
+    "name": "Betreibungsamt Aarau (Demo)",
+    "adresse": "5000 Aarau",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "664083",
+    "baujahr": 1992,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 133,
+    "wohnflaeche": 213,
+    "heizung": "Fernwärme",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1010",
+    "id": "demo-10",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-04",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1008",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Gewerbe",
+   "titel": "Gewerbeobjekt in Thun",
+   "kanton": "BE",
+   "gemeinde": "Thun",
+   "grundbuch": "Thun",
+   "grundstueckNr": [
+    "4080"
+   ],
+   "egrid": [
+    "CH986202409815"
+   ],
+   "adresse": {
+    "strasse": "Lindenstrasse 70",
+    "plz": "3600",
+    "ort": "Thun"
+   },
+   "lat": 46.76056818538771,
+   "lon": 7.633237804064748,
+   "genau": true,
+   "schaetzung": 1750000,
+   "flaecheGrundstueck": 1174,
+   "beschreibung": "Im Grundbuch Thun\nGrundstück Nr. 4080, 1'174 m², Gewerbeobjekt Vers.-Nr. 902, Lindenstrasse 70, 3600 Thun",
+   "steigerung": {
+    "datum": "2026-11-11",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 3600 Thun"
+   },
+   "besichtigung": "28.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "17.10.2026 bis 27.10.2026",
+   "eingabefrist": "2026-10-24",
+   "amt": {
+    "name": "Betreibungsamt Thun (Demo)",
+    "adresse": "3600 Thun",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "9966409",
+    "baujahr": 2018,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 428,
+    "wohnflaeche": 684,
+    "heizung": "Holz",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1008",
+    "id": "demo-8",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-04",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1022",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 6½ Zimmer in Bellinzona",
+   "kanton": "TI",
+   "gemeinde": "Bellinzona",
+   "grundbuch": "Bellinzona",
+   "grundstueckNr": [
+    "2706"
+   ],
+   "egrid": [
+    "CH570883545215"
+   ],
+   "adresse": {
+    "strasse": "Rosenweg 36",
+    "plz": "6500",
+    "ort": "Bellinzona"
+   },
+   "lat": 46.18750579036149,
+   "lon": 9.035828108971034,
+   "genau": true,
+   "schaetzung": 755000,
+   "flaecheGrundstueck": 556,
+   "zimmer": 6.5,
+   "beschreibung": "Im Grundbuch Bellinzona\nGrundstück Nr. 2706, 556 m², Einfamilienhaus Vers.-Nr. 916, Rosenweg 36, 6500 Bellinzona",
+   "steigerung": {
+    "datum": "2026-11-11",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 6500 Bellinzona"
+   },
+   "besichtigung": "28.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "17.10.2026 bis 27.10.2026",
+   "eingabefrist": "2026-11-03",
+   "amt": {
+    "name": "Betreibungsamt Bellinzona (Demo)",
+    "adresse": "6500 Bellinzona",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "5244848",
+    "baujahr": 2004,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 74,
+    "wohnflaeche": 118,
+    "heizung": "Holz",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1022",
+    "id": "demo-22",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-14",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1024",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 2½ Zimmer in Schaffhausen",
+   "kanton": "SH",
+   "gemeinde": "Schaffhausen",
+   "grundbuch": "Schaffhausen",
+   "grundstueckNr": [
+    "3815-4"
+   ],
+   "egrid": [
+    "CH306352555869"
+   ],
+   "adresse": {
+    "strasse": "Lindenstrasse 38",
+    "plz": "8200",
+    "ort": "Schaffhausen"
+   },
+   "lat": 47.68911257545474,
+   "lon": 8.628083711760198,
+   "genau": true,
+   "schaetzung": 575000,
+   "zimmer": 2.5,
+   "beschreibung": "Im Grundbuch Schaffhausen\nGrundstück Nr. 3815-12, Stockwerkeigentum, Sonderrecht an der 2 ½-Zimmerwohnung im 2. Obergeschoss mit Kellerabteil, Lindenstrasse 38, 8200 Schaffhausen",
+   "steigerung": {
+    "datum": "2026-11-14",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 8200 Schaffhausen"
+   },
+   "besichtigung": "31.10.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "20.10.2026 bis 30.10.2026",
+   "eingabefrist": "2026-11-02",
+   "amt": {
+    "name": "Betreibungsamt Schaffhausen (Demo)",
+    "adresse": "8200 Schaffhausen",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "7865039",
+    "baujahr": 2011,
+    "geschosse": 5,
+    "wohnungen": 13,
+    "grundflaeche": 328,
+    "heizung": "Elektrizität (direkt)",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1024",
+    "id": "demo-24",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-13",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1025",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 5½ Zimmer in Herisau",
+   "kanton": "AR",
+   "gemeinde": "Herisau",
+   "grundbuch": "Herisau",
+   "grundstueckNr": [
+    "104-10"
+   ],
+   "egrid": [
+    "CH322917878139"
+   ],
+   "adresse": {
+    "strasse": "Rosenweg 72",
+    "plz": "9100",
+    "ort": "Herisau"
+   },
+   "lat": 47.38271158911354,
+   "lon": 9.266517502901626,
+   "genau": true,
+   "schaetzung": 435000,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Herisau\nGrundstück Nr. 104-5, Stockwerkeigentum, Sonderrecht an der 5 ½-Zimmerwohnung im 3. Obergeschoss mit Kellerabteil, Rosenweg 72, 9100 Herisau",
+   "steigerung": {
+    "datum": "2026-11-15",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 9100 Herisau"
+   },
+   "besichtigung": "1.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "21.10.2026 bis 31.10.2026",
+   "eingabefrist": "2026-10-29",
+   "amt": {
+    "name": "Betreibungsamt Herisau (Demo)",
+    "adresse": "9100 Herisau",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "8578795",
+    "baujahr": 1985,
+    "geschosse": 4,
+    "wohnungen": 11,
+    "grundflaeche": 451,
+    "wohnflaeche": 98,
+    "heizung": "Elektrizität (direkt)",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1025",
+    "id": "demo-25",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-09",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1005",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 5½ Zimmer in Luzern",
+   "kanton": "LU",
+   "gemeinde": "Luzern",
+   "grundbuch": "Luzern",
+   "grundstueckNr": [
+    "1294-5"
+   ],
+   "egrid": [
+    "CH739212942006"
+   ],
+   "adresse": {
+    "strasse": "Musterweg 56",
+    "plz": "6003",
+    "ort": "Luzern"
+   },
+   "lat": 47.04055637286525,
+   "lon": 8.308638349955473,
+   "genau": true,
+   "schaetzung": 415000,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Luzern\nGrundstück Nr. 1294-10, Stockwerkeigentum, Sonderrecht an der 5 ½-Zimmerwohnung im 3. Obergeschoss mit Kellerabteil, Musterweg 56, 6003 Luzern",
+   "steigerung": {
+    "datum": "2026-11-17",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 6003 Luzern"
+   },
+   "besichtigung": "3.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "23.10.2026 bis 2.11.2026",
+   "eingabefrist": "2026-11-04",
+   "amt": {
+    "name": "Betreibungsamt Luzern (Demo)",
+    "adresse": "6003 Luzern",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "1375162",
+    "baujahr": 1971,
+    "geschosse": 5,
+    "wohnungen": 10,
+    "grundflaeche": 269,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1005",
+    "id": "demo-5",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-15",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1007",
+   "art": "betreibung",
+   "status": "abgesagt",
+   "kategorie": "Grundstueck",
+   "titel": "Grundstück in Bern",
+   "kanton": "BE",
+   "gemeinde": "Bern",
+   "grundbuch": "Bern",
+   "grundstueckNr": [
+    "632"
+   ],
+   "egrid": [
+    "CH756159468418"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 40",
+    "plz": "3011",
+    "ort": "Bern"
+   },
+   "lat": 46.93820271456819,
+   "lon": 7.44293585382694,
+   "genau": true,
+   "schaetzung": 635000,
+   "flaecheGrundstueck": 729,
+   "beschreibung": "Im Grundbuch Bern\nGrundstück Nr. 632, 729 m², Wiese/Bauland, Feldstrasse 40, 3011 Bern",
+   "steigerung": {
+    "datum": "2026-11-20",
+    "zeit": "14:30",
+    "ort": "Gemeindesaal, 3011 Bern"
+   },
+   "besichtigung": "6.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "26.10.2026 bis 5.11.2026",
+   "eingabefrist": "2026-11-08",
+   "amt": {
+    "name": "Betreibungsamt Bern (Demo)",
+    "adresse": "3011 Bern",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1007",
+    "id": "demo-7",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-19",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1018",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Gewerbe",
+   "titel": "Gewerbeobjekt in Yverdon-les-Bains",
+   "kanton": "VD",
+   "gemeinde": "Yverdon-les-Bains",
+   "grundbuch": "Yverdon-les-Bains",
+   "grundstueckNr": [
+    "830"
+   ],
+   "egrid": [
+    "CH227410386430"
+   ],
+   "adresse": {
+    "strasse": "Seeblick 42",
+    "plz": "1400",
+    "ort": "Yverdon-les-Bains"
+   },
+   "lat": 46.78705030814982,
+   "lon": 6.64864362806449,
+   "genau": true,
+   "schaetzung": 1630000,
+   "flaecheGrundstueck": 905,
+   "beschreibung": "Im Grundbuch Yverdon-les-Bains\nGrundstück Nr. 830, 905 m², Gewerbeobjekt Vers.-Nr. 722, Seeblick 42, 1400 Yverdon-les-Bains",
+   "steigerung": {
+    "datum": "2026-11-22",
+    "zeit": "14:30",
+    "ort": "Gemeindesaal, 1400 Yverdon-les-Bains"
+   },
+   "besichtigung": "8.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "28.10.2026 bis 7.11.2026",
+   "eingabefrist": "2026-11-09",
+   "amt": {
+    "name": "Betreibungsamt Yverdon-les-Bains (Demo)",
+    "adresse": "1400 Yverdon-les-Bains",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "4670700",
+    "baujahr": 1912,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 420,
+    "wohnflaeche": 672,
+    "heizung": "Fernwärme",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1018",
+    "id": "demo-18",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-20",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1014",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 2½ Zimmer in Liestal",
+   "kanton": "BL",
+   "gemeinde": "Liestal",
+   "grundbuch": "Liestal",
+   "grundstueckNr": [
+    "3637-4"
+   ],
+   "egrid": [
+    "CH486078811808"
+   ],
+   "adresse": {
+    "strasse": "Obstgartenweg 68",
+    "plz": "4410",
+    "ort": "Liestal"
+   },
+   "lat": 47.48649419093365,
+   "lon": 7.734800620716811,
+   "genau": true,
+   "schaetzung": 440000,
+   "zimmer": 2.5,
+   "beschreibung": "Im Grundbuch Liestal\nGrundstück Nr. 3637-10, Stockwerkeigentum, Sonderrecht an der 2 ½-Zimmerwohnung im 3. Obergeschoss mit Kellerabteil, Obstgartenweg 68, 4410 Liestal",
+   "steigerung": {
+    "datum": "2026-11-27",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 4410 Liestal"
+   },
+   "besichtigung": "13.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "2.11.2026 bis 12.11.2026",
+   "eingabefrist": "2026-11-10",
+   "amt": {
+    "name": "Betreibungsamt Liestal (Demo)",
+    "adresse": "4410 Liestal",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "6615511",
+    "baujahr": 1934,
+    "geschosse": 4,
+    "wohnungen": 10,
+    "grundflaeche": 311,
+    "heizung": "Gas",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1014",
+    "id": "demo-14",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-21",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1003",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 2½ Zimmer in St. Gallen",
+   "kanton": "SG",
+   "gemeinde": "St. Gallen",
+   "grundbuch": "St. Gallen",
+   "grundstueckNr": [
+    "972-10"
+   ],
+   "egrid": [
+    "CH825488187715"
+   ],
+   "adresse": {
+    "strasse": "Obstgartenweg 16",
+    "plz": "9000",
+    "ort": "St. Gallen"
+   },
+   "lat": 47.41509395961519,
+   "lon": 9.365719106495211,
+   "genau": true,
+   "schaetzung": 615000,
+   "zimmer": 2.5,
+   "beschreibung": "Im Grundbuch St. Gallen\nGrundstück Nr. 972-8, Stockwerkeigentum, Sonderrecht an der 2 ½-Zimmerwohnung im 2. Obergeschoss mit Kellerabteil, Obstgartenweg 16, 9000 St. Gallen",
+   "steigerung": {
+    "datum": "2026-11-28",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 9000 St. Gallen"
+   },
+   "besichtigung": "14.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "3.11.2026 bis 13.11.2026",
+   "eingabefrist": "2026-11-11",
+   "amt": {
+    "name": "Betreibungsamt St. Gallen (Demo)",
+    "adresse": "9000 St. Gallen",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "5259464",
+    "baujahr": 1978,
+    "geschosse": 3,
+    "wohnungen": 16,
+    "grundflaeche": 337,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1003",
+    "id": "demo-3",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-22",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1017",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "Grundstueck",
+   "titel": "Grundstück in Lausanne",
+   "kanton": "VD",
+   "gemeinde": "Lausanne",
+   "grundbuch": "Lausanne",
+   "grundstueckNr": [
+    "1651"
+   ],
+   "egrid": [
+    "CH229719496303"
+   ],
+   "adresse": {
+    "strasse": "Bahnhofstrasse 39",
+    "plz": "1003",
+    "ort": "Lausanne"
+   },
+   "lat": 46.52473654182426,
+   "lon": 6.646037718852924,
+   "genau": true,
+   "schaetzung": 1310000,
+   "flaecheGrundstueck": 1092,
+   "beschreibung": "Im Grundbuch Lausanne\nGrundstück Nr. 1651, 1'092 m², Wiese/Bauland, Bahnhofstrasse 39, 1003 Lausanne",
+   "steigerung": {
+    "datum": "2026-11-28",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 1003 Lausanne"
+   },
+   "besichtigung": "14.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "3.11.2026 bis 13.11.2026",
+   "eingabefrist": "2026-11-15",
+   "amt": {
+    "name": "Betreibungsamt Lausanne (Demo)",
+    "adresse": "1003 Lausanne",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1017",
+    "id": "demo-17",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-26",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1001",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 4½ Zimmer in Winterthur",
+   "kanton": "ZH",
+   "gemeinde": "Winterthur",
+   "grundbuch": "Winterthur",
+   "grundstueckNr": [
+    "2305"
+   ],
+   "egrid": [
+    "CH310127111086"
+   ],
+   "adresse": {
+    "strasse": "Kirchgasse 43",
+    "plz": "8400",
+    "ort": "Winterthur"
+   },
+   "lat": 47.48926051466881,
+   "lon": 8.738505287271556,
+   "genau": true,
+   "schaetzung": 1565000,
+   "flaecheGrundstueck": 893,
+   "zimmer": 4.5,
+   "beschreibung": "Im Grundbuch Winterthur\nGrundstück Nr. 2305, 893 m², Einfamilienhaus Vers.-Nr. 923, Kirchgasse 43, 8400 Winterthur",
+   "steigerung": {
+    "datum": "2026-11-30",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 8400 Winterthur"
+   },
+   "besichtigung": "16.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "5.11.2026 bis 15.11.2026",
+   "eingabefrist": "2026-11-16",
+   "amt": {
+    "name": "Betreibungsamt Winterthur (Demo)",
+    "adresse": "8400 Winterthur",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "7715479",
+    "baujahr": 2011,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 119,
+    "wohnflaeche": 191,
+    "heizung": "Elektrizität (direkt)",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1001",
+    "id": "demo-1",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-27",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1000",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Frauenfeld",
+   "kanton": "TG",
+   "gemeinde": "Frauenfeld",
+   "grundbuch": "Frauenfeld",
+   "grundstueckNr": [
+    "625"
+   ],
+   "egrid": [
+    "CH833938910489"
+   ],
+   "adresse": {
+    "strasse": "Musterweg 42",
+    "plz": "8500",
+    "ort": "Frauenfeld"
+   },
+   "lat": 47.552640572837966,
+   "lon": 8.89106166014556,
+   "genau": true,
+   "schaetzung": 950000,
+   "flaecheGrundstueck": 516,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Frauenfeld\nGrundstück Nr. 625, 516 m², Einfamilienhaus Vers.-Nr. 322, Musterweg 42, 8500 Frauenfeld",
+   "steigerung": {
+    "datum": "2026-12-04",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 8500 Frauenfeld"
+   },
+   "besichtigung": "20.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "9.11.2026 bis 19.11.2026",
+   "eingabefrist": "2026-11-23",
+   "amt": {
+    "name": "Betreibungsamt Frauenfeld (Demo)",
+    "adresse": "8500 Frauenfeld",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "1124227",
+    "baujahr": 2004,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 87,
+    "wohnflaeche": 139,
+    "heizung": "Holz",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1000",
+    "id": "demo-0",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-03",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1002",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Uster",
+   "kanton": "ZH",
+   "gemeinde": "Uster",
+   "grundbuch": "Uster",
+   "grundstueckNr": [
+    "2323"
+   ],
+   "egrid": [
+    "CH396351273502"
+   ],
+   "adresse": {
+    "strasse": "Seeblick 28",
+    "plz": "8610",
+    "ort": "Uster"
+   },
+   "lat": 47.33839468259522,
+   "lon": 8.735495786435154,
+   "genau": true,
+   "schaetzung": 880000,
+   "flaecheGrundstueck": 1005,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Uster\nGrundstück Nr. 2323, 1'005 m², Einfamilienhaus Vers.-Nr. 591, Seeblick 28, 8610 Uster",
+   "steigerung": {
+    "datum": "2026-12-04",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 8610 Uster"
+   },
+   "besichtigung": "20.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "9.11.2026 bis 19.11.2026",
+   "eingabefrist": "2026-11-24",
+   "amt": {
+    "name": "Betreibungsamt Uster (Demo)",
+    "adresse": "8610 Uster",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "4393927",
+    "baujahr": 1971,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 87,
+    "wohnflaeche": 139,
+    "heizung": "Heizöl",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1002",
+    "id": "demo-2",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-04",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1023",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 2½ Zimmer in Zug",
+   "kanton": "ZG",
+   "gemeinde": "Zug",
+   "grundbuch": "Zug",
+   "grundstueckNr": [
+    "825-9"
+   ],
+   "egrid": [
+    "CH345359951333"
+   ],
+   "adresse": {
+    "strasse": "Bergstrasse 18",
+    "plz": "6300",
+    "ort": "Zug"
+   },
+   "lat": 47.15987939280689,
+   "lon": 8.529832549622592,
+   "genau": true,
+   "schaetzung": 1255000,
+   "zimmer": 2.5,
+   "beschreibung": "Im Grundbuch Zug\nGrundstück Nr. 825-2, Stockwerkeigentum, Sonderrecht an der 2 ½-Zimmerwohnung im 4. Obergeschoss mit Kellerabteil, Bergstrasse 18, 6300 Zug",
+   "steigerung": {
+    "datum": "2026-12-06",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 6300 Zug"
+   },
+   "besichtigung": "22.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "11.11.2026 bis 21.11.2026",
+   "eingabefrist": "2026-11-18",
+   "amt": {
+    "name": "Betreibungsamt Zug (Demo)",
+    "adresse": "6300 Zug",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "7766343",
+    "baujahr": 1912,
+    "geschosse": 6,
+    "wohnungen": 9,
+    "grundflaeche": 348,
+    "wohnflaeche": 139,
+    "heizung": "Elektrizität (direkt)",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1023",
+    "id": "demo-23",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-10-29",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1026",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Mehrfamilienhaus in Glarus",
+   "kanton": "GL",
+   "gemeinde": "Glarus",
+   "grundbuch": "Glarus",
+   "grundstueckNr": [
+    "3264"
+   ],
+   "egrid": [
+    "CH521620571377"
+   ],
+   "adresse": {
+    "strasse": "Obstgartenweg 48",
+    "plz": "8750",
+    "ort": "Glarus"
+   },
+   "lat": 47.044564281640355,
+   "lon": 9.081522362672931,
+   "genau": true,
+   "schaetzung": 2060000,
+   "flaecheGrundstueck": 1202,
+   "beschreibung": "Im Grundbuch Glarus\nGrundstück Nr. 3264, 1'202 m², Mehrfamilienhaus Vers.-Nr. 281, Obstgartenweg 48, 8750 Glarus",
+   "steigerung": {
+    "datum": "2026-12-11",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 8750 Glarus"
+   },
+   "besichtigung": "27.11.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "16.11.2026 bis 26.11.2026",
+   "eingabefrist": "2026-12-01",
+   "amt": {
+    "name": "Betreibungsamt Glarus (Demo)",
+    "adresse": "8750 Glarus",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "7462660",
+    "baujahr": 1912,
+    "geschosse": 4,
+    "wohnungen": 6,
+    "grundflaeche": 447,
+    "wohnflaeche": 715,
+    "heizung": "Gas",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1026",
+    "id": "demo-26",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-11",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1020",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Sion",
+   "kanton": "VS",
+   "gemeinde": "Sion",
+   "grundbuch": "Sion",
+   "grundstueckNr": [
+    "3156"
+   ],
+   "egrid": [
+    "CH794921342236"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 62",
+    "plz": "1950",
+    "ort": "Sion"
+   },
+   "lat": 46.235504136687894,
+   "lon": 7.370088059309766,
+   "genau": true,
+   "schaetzung": 965000,
+   "flaecheGrundstueck": 371,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Sion\nGrundstück Nr. 3156, 371 m², Einfamilienhaus Vers.-Nr. 124, Feldstrasse 62, 1950 Sion",
+   "steigerung": {
+    "datum": "2026-12-15",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 1950 Sion"
+   },
+   "besichtigung": "1.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "20.11.2026 bis 30.11.2026",
+   "eingabefrist": "2026-11-28",
+   "amt": {
+    "name": "Betreibungsamt Sion (Demo)",
+    "adresse": "1950 Sion",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "8815196",
+    "baujahr": 2004,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 127,
+    "wohnflaeche": 203,
+    "heizung": "Gas",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1020",
+    "id": "demo-20",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-08",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1016",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Mehrfamilienhaus in Davos",
+   "kanton": "GR",
+   "gemeinde": "Davos",
+   "grundbuch": "Davos",
+   "grundstueckNr": [
+    "1515"
+   ],
+   "egrid": [
+    "CH757276358349"
+   ],
+   "adresse": {
+    "strasse": "Musterweg 56",
+    "plz": "7270",
+    "ort": "Davos"
+   },
+   "lat": 46.803283286407016,
+   "lon": 9.840942074608936,
+   "genau": true,
+   "schaetzung": 2405000,
+   "flaecheGrundstueck": 1259,
+   "beschreibung": "Im Grundbuch Davos\nGrundstück Nr. 1515, 1'259 m², Mehrfamilienhaus Vers.-Nr. 293, Musterweg 56, 7270 Davos",
+   "steigerung": {
+    "datum": "2026-12-21",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 7270 Davos"
+   },
+   "besichtigung": "7.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "26.11.2026 bis 6.12.2026",
+   "eingabefrist": "2026-12-01",
+   "amt": {
+    "name": "Betreibungsamt Davos (Demo)",
+    "adresse": "7270 Davos",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "6055357",
+    "baujahr": 2004,
+    "geschosse": 4,
+    "wohnungen": 8,
+    "grundflaeche": 269,
+    "wohnflaeche": 430,
+    "heizung": "Holz",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1016",
+    "id": "demo-16",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-11",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1013",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 4½ Zimmer in Basel",
+   "kanton": "BS",
+   "gemeinde": "Basel",
+   "grundbuch": "Basel",
+   "grundstueckNr": [
+    "2221-2"
+   ],
+   "egrid": [
+    "CH497815983611"
+   ],
+   "adresse": {
+    "strasse": "Rosenweg 44",
+    "plz": "4051",
+    "ort": "Basel"
+   },
+   "lat": 47.56897931165973,
+   "lon": 7.585736604815848,
+   "genau": true,
+   "schaetzung": 620000,
+   "zimmer": 4.5,
+   "beschreibung": "Im Grundbuch Basel\nGrundstück Nr. 2221-5, Stockwerkeigentum, Sonderrecht an der 4 ½-Zimmerwohnung im 4. Obergeschoss mit Kellerabteil, Rosenweg 44, 4051 Basel",
+   "steigerung": {
+    "datum": "2026-12-23",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 4051 Basel"
+   },
+   "besichtigung": "9.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "28.11.2026 bis 8.12.2026",
+   "eingabefrist": "2026-12-03",
+   "amt": {
+    "name": "Betreibungsamt Basel (Demo)",
+    "adresse": "4051 Basel",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "3139489",
+    "baujahr": 1992,
+    "geschosse": 3,
+    "wohnungen": 15,
+    "grundflaeche": 407,
+    "heizung": "Fernwärme",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1013",
+    "id": "demo-13",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-13",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1019",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt in Fribourg",
+   "kanton": "FR",
+   "gemeinde": "Fribourg",
+   "grundbuch": "Fribourg",
+   "grundstueckNr": [
+    "4261"
+   ],
+   "egrid": [
+    "CH944784897097"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 52",
+    "plz": "1700",
+    "ort": "Fribourg"
+   },
+   "lat": 46.80371048357637,
+   "lon": 7.156896352137342,
+   "genau": true,
+   "schaetzung": 30000,
+   "flaecheGrundstueck": 1028,
+   "beschreibung": "Im Grundbuch Fribourg\nGrundstück Nr. 4261, Autoabstellplatz in Einstellhalle, Miteigentum 1/24, Feldstrasse 52, 1700 Fribourg",
+   "steigerung": {
+    "datum": "2026-12-24",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 1700 Fribourg"
+   },
+   "besichtigung": "10.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "29.11.2026 bis 9.12.2026",
+   "eingabefrist": "2026-12-12",
+   "amt": {
+    "name": "Betreibungsamt Fribourg (Demo)",
+    "adresse": "1700 Fribourg",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1019",
+    "id": "demo-19",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-22",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1029",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt in Altdorf",
+   "kanton": "UR",
+   "gemeinde": "Altdorf",
+   "grundbuch": "Altdorf",
+   "grundstueckNr": [
+    "3185"
+   ],
+   "egrid": [
+    "CH483343760484"
+   ],
+   "adresse": {
+    "strasse": "Obstgartenweg 33",
+    "plz": "6460",
+    "ort": "Altdorf"
+   },
+   "lat": 46.874170395725756,
+   "lon": 8.64296163458299,
+   "genau": true,
+   "schaetzung": 45000,
+   "flaecheGrundstueck": 495,
+   "beschreibung": "Im Grundbuch Altdorf\nGrundstück Nr. 3185, Autoabstellplatz in Einstellhalle, Miteigentum 1/24, Obstgartenweg 33, 6460 Altdorf",
+   "steigerung": {
+    "datum": "2026-12-26",
+    "zeit": "14:30",
+    "ort": "Gemeindesaal, 6460 Altdorf"
+   },
+   "besichtigung": "12.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "1.12.2026 bis 11.12.2026",
+   "eingabefrist": "2026-12-12",
+   "amt": {
+    "name": "Betreibungsamt Altdorf (Demo)",
+    "adresse": "6460 Altdorf",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1029",
+    "id": "demo-29",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-22",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1012",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Olten",
+   "kanton": "SO",
+   "gemeinde": "Olten",
+   "grundbuch": "Olten",
+   "grundstueckNr": [
+    "4430"
+   ],
+   "egrid": [
+    "CH966609506249"
+   ],
+   "adresse": {
+    "strasse": "Feldstrasse 5",
+    "plz": "4600",
+    "ort": "Olten"
+   },
+   "lat": 47.34951014661902,
+   "lon": 7.914901460684651,
+   "genau": true,
+   "schaetzung": 695000,
+   "flaecheGrundstueck": 325,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Olten\nGrundstück Nr. 4430, 325 m², Einfamilienhaus Vers.-Nr. 122, Feldstrasse 5, 4600 Olten",
+   "steigerung": {
+    "datum": "2026-12-29",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 4600 Olten"
+   },
+   "besichtigung": "15.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "4.12.2026 bis 14.12.2026",
+   "eingabefrist": "2026-12-17",
+   "amt": {
+    "name": "Betreibungsamt Olten (Demo)",
+    "adresse": "4600 Olten",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "5525888",
+    "baujahr": 2004,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 87,
+    "wohnflaeche": 139,
+    "heizung": "Holz",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1012",
+    "id": "demo-12",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-27",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1015",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 4½ Zimmer in Chur",
+   "kanton": "GR",
+   "gemeinde": "Chur",
+   "grundbuch": "Chur",
+   "grundstueckNr": [
+    "576-4"
+   ],
+   "egrid": [
+    "CH725980861389"
+   ],
+   "adresse": {
+    "strasse": "Lindenstrasse 49",
+    "plz": "7000",
+    "ort": "Chur"
+   },
+   "lat": 46.851311105964434,
+   "lon": 9.517237027802725,
+   "genau": true,
+   "schaetzung": 345000,
+   "zimmer": 4.5,
+   "beschreibung": "Im Grundbuch Chur\nGrundstück Nr. 576-10, Stockwerkeigentum, Sonderrecht an der 4 ½-Zimmerwohnung im 2. Obergeschoss mit Kellerabteil, Lindenstrasse 49, 7000 Chur",
+   "steigerung": {
+    "datum": "2027-01-01",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, 7000 Chur"
+   },
+   "besichtigung": "18.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "7.12.2026 bis 17.12.2026",
+   "eingabefrist": "2026-12-24",
+   "amt": {
+    "name": "Betreibungsamt Chur (Demo)",
+    "adresse": "7000 Chur",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "3932318",
+    "baujahr": 1971,
+    "geschosse": 3,
+    "wohnungen": 9,
+    "grundflaeche": 421,
+    "wohnflaeche": 74,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1015",
+    "id": "demo-15",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-12-04",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1011",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 4½ Zimmer in Baden",
+   "kanton": "AG",
+   "gemeinde": "Baden",
+   "grundbuch": "Baden",
+   "grundstueckNr": [
+    "308"
+   ],
+   "egrid": [
+    "CH681456443169"
+   ],
+   "adresse": {
+    "strasse": "Seeblick 54",
+    "plz": "5400",
+    "ort": "Baden"
+   },
+   "lat": 47.473272472265336,
+   "lon": 8.30191216299088,
+   "genau": true,
+   "schaetzung": 850000,
+   "flaecheGrundstueck": 354,
+   "zimmer": 4.5,
+   "beschreibung": "Im Grundbuch Baden\nGrundstück Nr. 308, 354 m², Einfamilienhaus Vers.-Nr. 442, Seeblick 54, 5400 Baden",
+   "steigerung": {
+    "datum": "2027-01-03",
+    "zeit": "15:00",
+    "ort": "Gemeindesaal, 5400 Baden"
+   },
+   "besichtigung": "20.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "9.12.2026 bis 19.12.2026",
+   "eingabefrist": "2026-12-20",
+   "amt": {
+    "name": "Betreibungsamt Baden (Demo)",
+    "adresse": "5400 Baden",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "9154463",
+    "baujahr": 1934,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 124,
+    "wohnflaeche": 198,
+    "heizung": "Fernwärme",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1011",
+    "id": "demo-11",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-11-30",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1004",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 3½ Zimmer in Wil SG",
+   "kanton": "SG",
+   "gemeinde": "Wil SG",
+   "grundbuch": "Wil SG",
+   "grundstueckNr": [
+    "3991-11"
+   ],
+   "egrid": [
+    "CH768376601745"
+   ],
+   "adresse": {
+    "strasse": "Bergstrasse 54",
+    "plz": "9500",
+    "ort": "Wil SG"
+   },
+   "lat": 47.46803540932251,
+   "lon": 9.046436765732185,
+   "genau": true,
+   "schaetzung": 670000,
+   "zimmer": 3.5,
+   "beschreibung": "Im Grundbuch Wil SG\nGrundstück Nr. 3991-4, Stockwerkeigentum, Sonderrecht an der 3 ½-Zimmerwohnung im 2. Obergeschoss mit Kellerabteil, Bergstrasse 54, 9500 Wil SG",
+   "steigerung": {
+    "datum": "2027-01-04",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 9500 Wil SG"
+   },
+   "besichtigung": "21.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "10.12.2026 bis 20.12.2026",
+   "eingabefrist": "2026-12-23",
+   "amt": {
+    "name": "Betreibungsamt Wil SG (Demo)",
+    "adresse": "9500 Wil SG",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "5710992",
+    "baujahr": 2018,
+    "geschosse": 5,
+    "wohnungen": 7,
+    "grundflaeche": 372,
+    "wohnflaeche": 100,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1004",
+    "id": "demo-4",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-12-03",
+    "sprache": "de"
+   },
+   "demo": true
+  },
+  {
+   "id": "SB01-DEMO1006",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Mehrfamilienhaus in Emmen",
+   "kanton": "LU",
+   "gemeinde": "Emmen",
+   "grundbuch": "Emmen",
+   "grundstueckNr": [
+    "3342"
+   ],
+   "egrid": [
+    "CH562759806105"
+   ],
+   "adresse": {
+    "strasse": "Bahnhofstrasse 21",
+    "plz": "6020",
+    "ort": "Emmen"
+   },
+   "lat": 47.07424341420954,
+   "lon": 8.294244134635427,
+   "genau": true,
+   "schaetzung": 1880000,
+   "flaecheGrundstueck": 978,
+   "beschreibung": "Im Grundbuch Emmen\nGrundstück Nr. 3342, 978 m², Mehrfamilienhaus Vers.-Nr. 300, Bahnhofstrasse 21, 6020 Emmen",
+   "steigerung": {
+    "datum": "2027-01-05",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal, 6020 Emmen"
+   },
+   "besichtigung": "22.12.2026, 14:00 Uhr, nur mit Voranmeldung",
+   "auflage": "11.12.2026 bis 21.12.2026",
+   "eingabefrist": "2026-12-26",
+   "amt": {
+    "name": "Betreibungsamt Emmen (Demo)",
+    "adresse": "6020 Emmen",
+    "email": "demo@example.ch",
+    "telefon": "058 000 00 00"
+   },
+   "gebaeude": {
+    "egid": "9568660",
+    "baujahr": 1971,
+    "geschosse": 4,
+    "wohnungen": 8,
+    "grundflaeche": 339,
+    "wohnflaeche": 543,
+    "heizung": "Gas",
+    "fossil": true
+   },
+   "quelle": {
+    "nummer": "SB01-DEMO1006",
+    "id": "demo-6",
+    "url": "https://www.shab.ch/",
+    "xml": "",
+    "datum": "2026-12-06",
+    "sprache": "de"
+   },
+   "demo": true
+  }
+ ]
+}

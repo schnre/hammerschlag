@@ -1,0 +1,10 @@
+{
+  "name": "Hammerschlag – Zwangsversteigerungen Schweiz",
+  "short_name": "Hammerschlag",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#1d2420",
+  "lang": "de-CH",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

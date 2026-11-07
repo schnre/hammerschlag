@@ -1,0 +1,39 @@
+{
+  "_hinweis": "Richtwerte für die automatische Vorbewertung. Alle Werte sind grobe Annahmen und sollten an die eigene Region und Erfahrung angepasst werden. Jede Zahl kann in der App unter Einstellungen bzw. pro Objekt im Rechner überschrieben werden.",
+
+  "preisProM2": {
+    "_einheit": "CHF pro m² Wohnfläche, Marktwert in gutem/renoviertem Zustand",
+    "ETW": { "ZH": 12000, "ZG": 13500, "GE": 12500, "SZ": 10500, "NW": 10000, "BS": 9500, "VD": 9500, "OW": 9000, "LU": 8500, "BL": 8000, "GR": 8500, "AG": 7500, "SG": 7000, "TG": 7000, "BE": 7000, "FR": 6800, "TI": 7000, "VS": 6500, "SH": 6500, "AR": 6500, "AI": 7500, "UR": 6800, "GL": 5800, "SO": 6000, "NE": 5500, "JU": 4500 },
+    "EFH": { "ZH": 10500, "ZG": 12500, "GE": 11500, "SZ": 9500, "NW": 9000, "BS": 9000, "VD": 8500, "OW": 8000, "LU": 7500, "BL": 7500, "GR": 7500, "AG": 7000, "SG": 6500, "TG": 6500, "BE": 6300, "FR": 6200, "TI": 6300, "VS": 6000, "SH": 6000, "AR": 6000, "AI": 6800, "UR": 6000, "GL": 5200, "SO": 5800, "NE": 5000, "JU": 4200 },
+    "MFH_FAKTOR": 0.8,
+    "GEWERBE_FAKTOR": 0.5
+  },
+
+  "mieteProM2Jahr": {
+    "_einheit": "CHF Nettomiete pro m² Wohnfläche und Jahr",
+    "ZH": 330, "ZG": 340, "GE": 360, "SZ": 280, "NW": 270, "BS": 280, "VD": 300, "OW": 250, "LU": 260, "BL": 250, "GR": 240, "AG": 230, "SG": 220, "TG": 220, "BE": 230, "FR": 230, "TI": 220, "VS": 210, "SH": 220, "AR": 210, "AI": 220, "UR": 210, "GL": 190, "SO": 210, "NE": 210, "JU": 180
+  },
+
+  "renovationProM2": {
+    "_einheit": "CHF pro m² Wohnfläche für eine Gesamtsanierung je nach Baujahr (Küche, Bad, Oberflächen, Haustechnik, ggf. Hülle)",
+    "bis1949": 1900,
+    "1950bis1979": 1500,
+    "1980bis1999": 1000,
+    "2000bis2014": 450,
+    "ab2015": 150,
+    "unbekannt": 1100,
+    "fossileHeizungZuschlag": 220
+  },
+
+  "nebenkosten": {
+    "_einheit": "Anteil am Zuschlag. Handänderungssteuer je Kanton (Annahme), dazu Grundbuch- und Steigerungskosten",
+    "handaenderung": { "*": 0.015, "ZH": 0.0 },
+    "grundbuchUndSteigerung": 0.006
+  },
+
+  "zuschlagFaktor": 1.0,
+  "verkaufskosten": 0.03,
+  "risikoabschlag": 0.08,
+  "wohnflaecheAusGebaeudeFaktor": 0.8,
+  "schwellen": { "lohnend": 12, "pruefen": 3 }
+}
