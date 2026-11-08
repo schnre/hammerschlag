@@ -14,8 +14,20 @@ const EBENEN: Record<Kartenstil, string> = {
   luftbild: 'ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg',
 };
 
-export function neueKarte(el: HTMLElement, stil: Kartenstil = 'grau'): L.Map {
-  const karte = L.map(el, { zoomControl: true, attributionControl: true, maxBounds: [[45.3, 5.2], [48.3, 11.2]] });
+const TOUCH = () => matchMedia('(pointer: coarse)').matches;
+
+/**
+ * sperre = Karte steht mitten in einer scrollbaren Seite. Auf Touch-Geräten scrollt ein Finger
+ * dann die Seite, zwei Finger zoomen; nach einem Tippen lässt sich die Karte verschieben.
+ */
+export function neueKarte(el: HTMLElement, stil: Kartenstil = 'grau', sperre = false): L.Map {
+  const gesperrt = sperre && TOUCH();
+  const karte = L.map(el, { zoomControl: !TOUCH(), attributionControl: true, maxBounds: [[45.3, 5.2], [48.3, 11.2]], dragging: !gesperrt });
+  if (gesperrt) {
+    const hinweis = Object.assign(document.createElement('button'), { className: 'karte-sperre', type: 'button', textContent: 'Tippen, um die Karte zu bewegen' });
+    el.append(hinweis);
+    hinweis.addEventListener('click', () => { karte.dragging.enable(); hinweis.remove(); });
+  }
   const ebenen = Object.fromEntries(
     (Object.keys(EBENEN) as Kartenstil[]).map((k) => [
       { grau: 'Karte grau', farbig: 'Karte farbig', luftbild: 'Luftbild' }[k],
@@ -57,7 +69,7 @@ export function zeigeObjekte(karte: L.Map, objekte: Objekt[], umkreis?: { koord:
 
 export function einzelKarte(el: HTMLElement, o: Objekt): L.Map | undefined {
   if (o.lat == null || o.lon == null) return undefined;
-  const k = neueKarte(el, 'farbig');
+  const k = neueKarte(el, 'farbig', true);
   k.setView([o.lat, o.lon], o.genau ? 17 : 13);
   if (o.genau) L.marker([o.lat, o.lon], { icon: L.divIcon({ className: 'pin', html: '<span></span>', iconSize: [22, 22], iconAnchor: [11, 22] }) }).addTo(k);
   else L.circle([o.lat, o.lon], { radius: 800, color: '#b4462b', weight: 1, fillOpacity: 0.08 }).addTo(k);

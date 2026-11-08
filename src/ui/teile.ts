@@ -40,7 +40,7 @@ export function objektKarte(o: Objekt, distanz?: number): string {
     <p class="fakten">${esc(fakten || o.grundbuch || '')}</p>
     <div class="objekt-fuss">
       <span><small>Schätzung</small><b>${chf(o.schaetzung)}</b></span>
-      <span><small>Steigerung</small><b>${datum(o.steigerung?.datum, false)}</b> <small>${esc(inTagen(o.steigerung?.datum))}</small></span>
+      <span><small>Steigerung${o.steigerung?.datum ? ` · ${esc(inTagen(o.steigerung.datum))}` : ''}</small><b>${datum(o.steigerung?.datum, false)}</b></span>
     </div>
   </a>`;
 }

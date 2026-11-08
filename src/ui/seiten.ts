@@ -2,6 +2,7 @@ import { KANTONE } from '../typen';
 import { STANDARD_CONFIG } from '../bewertung';
 import { zustand, setzeOverrides, exportiere, importiere } from '../zustand';
 import { esc } from '../format';
+import { geraetText, setzeSkala, skala, type Skala } from '../geraet';
 import { objektKarte, leer, csv, herunterladen, aktualisiereMerkZahl } from './teile';
 
 export function merkliste(app: HTMLElement): void {
@@ -46,6 +47,15 @@ export function einstellungen(app: HTMLElement): void {
   const efh = c.preisProM2.EFH as Record<string, number>;
   app.innerHTML = `<div class="schmal">
     <h1>Einstellungen</h1>
+    <section class="block">
+      <h2>Darstellung</h2>
+      <p class="still">Erkannt: <span id="geraet">${esc(geraetText())}</span></p>
+      <fieldset class="feld"><legend>Schriftgrösse</legend><div class="segment segment-voll" role="radiogroup">
+        ${([['auto', 'Auto'], ['klein', 'Klein'], ['normal', 'Normal'], ['gross', 'Gross'], ['sehr-gross', 'Grösser']] as [Skala, string][]).map(([k, t]) =>
+          `<button type="button" role="radio" data-skala="${k}" aria-checked="${skala() === k}" aria-selected="${skala() === k}">${t}</button>`).join('')}
+      </div></fieldset>
+      <p class="still"><small>«Auto» passt die Grösse an die Bildschirmbreite deines Geräts an.</small></p>
+    </section>
     <section class="block">
       <h2>Bewertung</h2>
       <form id="cfg" class="cfg">
@@ -95,6 +105,12 @@ export function einstellungen(app: HTMLElement): void {
     });
     app.querySelector('#gespeichert')!.textContent = 'Gespeichert';
   };
+  app.querySelectorAll<HTMLButtonElement>('[data-skala]').forEach((b) => b.addEventListener('click', () => {
+    setzeSkala(b.dataset.skala as Skala);
+    app.querySelectorAll<HTMLButtonElement>('[data-skala]').forEach((x) => { const an = String(x === b); x.setAttribute('aria-checked', an); x.setAttribute('aria-selected', an); });
+  }));
+  // Android-Modell kommt asynchron
+  setTimeout(() => { const g = app.querySelector('#geraet'); if (g) g.textContent = geraetText(); }, 300);
   app.addEventListener('change', (e) => { if ((e.target as HTMLElement).id !== 'import') speichern(); });
   app.querySelector('#cfg-reset')!.addEventListener('click', () => { setzeOverrides({}); einstellungen(app); });
   app.querySelector('#export')!.addEventListener('click', () => herunterladen('hammerschlag-daten.json', exportiere(), 'application/json'));

@@ -56,7 +56,7 @@ export function uebersicht(app: HTMLElement): void {
       <div class="kantone">${kantone.map(([k, n]) => `<button class="kt" data-kanton="${esc(k)}"><b>${esc(k)}</b> ${n}</button>`).join('') || '<p class="still">–</p>'}</div>
     </section>`;
 
-  const k = neueKarte(app.querySelector('#uebersicht-karte')!);
+  const k = neueKarte(app.querySelector('#uebersicht-karte')!, 'grau', true);
   zeigeObjekte(k, aktiv);
 
   const zuListe = (f: Partial<typeof STANDARD_FILTER>) => {

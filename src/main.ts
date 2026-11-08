@@ -1,4 +1,5 @@
 import './style.css';
+import { starteGeraet } from './geraet';
 import type { Datenbestand } from './typen';
 import { zustand, merkeBesuch } from './zustand';
 import { aktualisiereMerkZahl, leer } from './ui/teile';
@@ -7,10 +8,17 @@ import { objekte } from './ui/objekte';
 import { detail } from './ui/detail';
 import { merkliste, tipps, einstellungen } from './ui/seiten';
 
+starteGeraet();
 const app = document.getElementById('app')!;
 
+// Scrollposition je Seite, damit «zurück» vom Objekt wieder an dieselbe Stelle der Liste führt
+const scrollPos = new Map<string, number>();
+let vorher = '';
+
 function route(): void {
+  document.body.classList.remove('sheet-offen');
   const [, seite = '', id] = location.hash.replace(/^#/, '').split('/');
+  scrollPos.set(vorher, window.scrollY);
   document.querySelectorAll<HTMLAnchorElement>('[data-nav]').forEach((a) =>
     a.classList.toggle('aktiv', a.dataset.nav === (seite === 'objekt' ? 'objekte' : seite || 'uebersicht')));
   switch (seite) {
@@ -21,7 +29,8 @@ function route(): void {
     case 'einstellungen': einstellungen(app); break;
     default: uebersicht(app);
   }
-  if (seite !== 'objekte') window.scrollTo(0, 0);
+  window.scrollTo(0, vorher === 'objekt' ? scrollPos.get(seite) ?? 0 : 0);
+  vorher = seite;
 }
 
 async function start(): Promise<void> {

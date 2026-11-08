@@ -36,12 +36,17 @@ export function filtere(objekte: Objekt[], f: Filter): { o: Objekt; km?: number 
 
 let karte: L.Map | undefined;
 
+/** Anzahl gesetzter Filter für das Abzeichen am Filter-Knopf. */
+function aktiveFilter(f: Filter): number {
+  return [f.suche.trim(), f.kategorien.length, f.kanton, f.art, f.maxPreis, f.urteil, f.umkreisKoord && f.umkreisKm, !f.nurAktiv].filter(Boolean).length;
+}
+
 export function objekte(app: HTMLElement): void {
   const f = zustand.filter;
   app.innerHTML = `
     <div class="objekte-layout">
-      <aside class="filter" id="filter">
-        <div class="filter-kopf"><h2>Filter</h2><button class="link" id="zuruecksetzen">Zurücksetzen</button></div>
+      <aside class="filter" id="filter" aria-label="Filter">
+        <div class="filter-kopf"><h2>Filter</h2><button class="link" id="zuruecksetzen">Zurücksetzen</button><button class="schliessen nur-mobil" id="filter-zu" aria-label="Filter schliessen">✕</button></div>
         <label class="feld"><span>Suche</span><input type="search" id="suche" placeholder="Ort, PLZ, Strasse, Stichwort" value="${esc(f.suche)}"></label>
         <fieldset class="feld"><legend>Kategorie</legend><div class="chips">
           ${(Object.keys(KATEGORIEN) as Kategorie[]).map((k) => `<label class="chip-check"><input type="checkbox" name="kat" value="${k}" ${f.kategorien.includes(k) ? 'checked' : ''}><span>${esc(KATEGORIEN[k])}</span></label>`).join('')}
@@ -62,11 +67,12 @@ export function objekte(app: HTMLElement): void {
           <label class="feld"><span>Bewertung</span><select id="urteil"><option value="">alle</option><option value="lohnend" ${f.urteil === 'lohnend' ? 'selected' : ''}>lohnt sich</option><option value="pruefen" ${f.urteil === 'pruefen' ? 'selected' : ''}>mind. prüfenswert</option></select></label>
         </div>
         <label class="schalter"><input type="checkbox" id="nur-aktiv" ${f.nurAktiv ? 'checked' : ''}><span>Nur offene Steigerungen</span></label>
+        <div class="filter-fuss nur-mobil"><button class="knopf primaer" id="filter-fertig"></button></div>
       </aside>
 
       <section class="ergebnis">
         <div class="werkzeug">
-          <button class="knopf klein nur-mobil" id="filter-auf">Filter</button>
+          <button class="knopf klein nur-mobil" id="filter-auf" aria-controls="filter">Filter <span class="zahl" id="filter-zahl"></span></button>
           <span id="treffer" class="treffer"></span>
           <select id="sortierung" aria-label="Sortierung">
             <option value="datum">Steigerungsdatum</option><option value="neu">Neueste zuerst</option><option value="score">Beste Bewertung</option>
@@ -75,7 +81,7 @@ export function objekte(app: HTMLElement): void {
           <div class="segment" role="tablist">
             <button data-ansicht="liste" role="tab">Liste</button><button data-ansicht="karte" role="tab">Karte</button>
           </div>
-          <button class="knopf klein" id="csv" title="Als CSV für Excel exportieren">CSV</button>
+          <button class="knopf klein nur-desktop" id="csv" title="Als CSV für Excel exportieren">CSV</button>
         </div>
         <div id="ergebnis-liste" class="liste raster"></div>
         <div id="ergebnis-karte" class="karte gross" hidden></div>
@@ -87,7 +93,10 @@ export function objekte(app: HTMLElement): void {
 
   const zeichne = () => {
     const r = filtere(zustand.daten.objekte, zustand.filter);
-    $('#treffer').textContent = `${r.length} ${r.length === 1 ? 'Objekt' : 'Objekte'}`;
+    const n = `${r.length} ${r.length === 1 ? 'Objekt' : 'Objekte'}`;
+    $('#treffer').textContent = n;
+    $('#filter-fertig').textContent = `${n} anzeigen`;
+    $('#filter-zahl').textContent = String(aktiveFilter(zustand.filter) || '');
     app.querySelectorAll<HTMLButtonElement>('[data-ansicht]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.ansicht === zustand.filter.ansicht)));
     const liste = $('#ergebnis-liste'), kEl = $('#ergebnis-karte');
     liste.hidden = zustand.filter.ansicht !== 'liste';
@@ -119,7 +128,13 @@ export function objekte(app: HTMLElement): void {
   $('#sortierung').addEventListener('change', (e) => setze({ sortierung: (e.target as HTMLSelectElement).value as Filter['sortierung'] }));
   app.querySelectorAll<HTMLButtonElement>('[data-ansicht]').forEach((b) => b.addEventListener('click', () => setze({ ansicht: b.dataset.ansicht as Filter['ansicht'] })));
   $('#zuruecksetzen').addEventListener('click', reset);
-  $('#filter-auf').addEventListener('click', () => $('#filter').classList.toggle('offen'));
+  const blatt = (auf: boolean) => {
+    $('#filter').classList.toggle('offen', auf);
+    document.body.classList.toggle('sheet-offen', auf);
+  };
+  $('#filter-auf').addEventListener('click', () => blatt(!$('#filter').classList.contains('offen')));
+  $('#filter-zu').addEventListener('click', () => blatt(false));
+  $('#filter-fertig').addEventListener('click', () => { blatt(false); window.scrollTo(0, 0); });
   $('#csv').addEventListener('click', () => herunterladen(`steigerungen-${new Date().toISOString().slice(0, 10)}.csv`, csv(filtere(zustand.daten.objekte, zustand.filter).map((x) => x.o)), 'text/csv;charset=utf-8'));
 
   const umkreis = async () => {
