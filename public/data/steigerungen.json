@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T11:57:31.146Z",
+ "stand": "2026-11-09T13:57:04.969Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -5798,6 +5798,68 @@
    "lat": 46.21047592163086,
    "lon": 8.988633155822754,
    "genau": false
+  },
+  {
+   "id": "SB01-0000005049",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Männedorf",
+   "kanton": "ZH",
+   "gemeinde": "Männedorf",
+   "grundbuch": "Männedorf",
+   "grundstueckNr": [
+    "407",
+    "5676"
+   ],
+   "egrid": [
+    "CH960900000085"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Aufdorfstrasse 227",
+    "plz": "8708",
+    "ort": "Männedorf"
+   },
+   "schaetzung": 830000,
+   "beschreibung": "Grundstück\nIn der Gemeinde Männedorf : Wohnhaus mit Garten, Baujahr 1901\nGrundbuch Blatt 407, Kataster Nr. 5676, Aufdorfstrasse 227, 8708 Männedorf.\nGrenzen laut Grundbuchplan, Anmerkungen, Vormerkungen und Dienstbarkeiten laut Grundbuchauszug.\nBesichtigung\nMittwoch, 18. November 2026, 12.30 Uhr bis 14.30 Uhr; Besammlung vor der Liegenschaft Aufdorfstrasse 227, 8708 Männedorf.\nRechtskräftige betreibungsamtliche Schätzung\nFr. 830'000.00\nDie Verwertung erfolgt auf Verlangen der gesetzlichen Grundpfandgläubigerin (Gebäudeversicherung Kanton Zürich) und diverser weiterer Pfändungsgläubigern.",
+   "steigerung": {
+    "datum": "2027-01-25",
+    "zeit": "10:00",
+    "ort": "Kleiner Gemeindesaal, Zentrum Leue, Alte Landstrasse 250, 8708 Männedorf"
+   },
+   "besichtigung": "18.11.2026, 12:30 Uhr",
+   "eingabefrist": "2026-11-26",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Pfannenstiel",
+    "adresse": "Bahnhofstrasse 6, 8708 Männedorf"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005049",
+    "id": "c2354392-2a84-4d02-a477-e4f2ff57d227",
+    "url": "https://www.shab.ch/#!/search/publications/detail/c2354392-2a84-4d02-a477-e4f2ff57d227",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/c2354392-2a84-4d02-a477-e4f2ff57d227/xml",
+    "datum": "2026-11-09",
+    "sprache": "de"
+   },
+   "lat": 47.25733184814453,
+   "lon": 8.703166007995605,
+   "genau": true,
+   "gebaeude": {
+    "egid": "74159",
+    "baujahr": 1901,
+    "geschosse": 3,
+    "wohnungen": 2,
+    "grundflaeche": 70,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false,
+    "klasse": 1121,
+    "wohnflaeche": 180,
+    "zimmer": 6
+   }
   },
   {
    "id": "SB01-0000005046",
