@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-09T13:57:04.969Z",
+ "stand": "2026-11-10T13:30:29.603Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -1831,7 +1831,7 @@
   {
    "id": "SB01-0000004922",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in Stein am Rhein",
    "kanton": "SH",
@@ -7461,6 +7461,48 @@
    }
   },
   {
+   "id": "SB01-0000005066",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Lavey-Morcles et consistant en",
+   "kanton": "VD",
+   "gemeinde": "Lavey-Morcles et consistant en",
+   "grundbuch": "Lavey-Morcles et consistant en",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 272000,
+   "beschreibung": "Parcelle RF 549-2 sise sur la commune de Lavey-Morcles et consistant en : un appartement de 3,5 pièces avec terrasse, lot 2, rez-de-chaussée Sud.\nInformations sur la parcelle de base : RF 549 sise sur la commune de Lavey-Morcles, plan no 5, Route des Prés Râpets, PPE Les Narcisses\nEstimation fiscale (2011) : Fr. 272'000.00\nEstimation selon rapport d'expertise du 15.06.2026 de la Parcelle RF 549-2 : 410'000.00",
+   "steigerung": {
+    "datum": "2027-03-15",
+    "zeit": "10:00",
+    "ort": "Salle d'audience de la Justice de Paix au 3ème étage, Place du Marché 1, 1860 Aigle"
+   },
+   "eingabefrist": "2026-11-30",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "lage": {
+    "stock": 3100
+   },
+   "amt": {
+    "name": "Office des poursuites du district d'Aigle",
+    "adresse": "Place du Marché 1, 1860 Aigle"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005066",
+    "id": "28950ac1-1969-443d-baff-d04646b486a4",
+    "url": "https://www.shab.ch/#!/search/publications/detail/28950ac1-1969-443d-baff-d04646b486a4",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/28950ac1-1969-443d-baff-d04646b486a4/xml",
+    "datum": "2026-11-10",
+    "sprache": "fr"
+   },
+   "lat": 46.20769500732422,
+   "lon": 7.041568279266357,
+   "genau": false
+  },
+  {
    "id": "SB01-0000005039",
    "art": "betreibung",
    "status": "aktiv",
@@ -7920,6 +7962,45 @@
    },
    "lat": 46.38344955444336,
    "lon": 6.232627868652344,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005067",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt in Trélex",
+   "kanton": "VD",
+   "gemeinde": "Trélex",
+   "grundbuch": "Trélex",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "beschreibung": "Parcelle RF 424-4 sise sur commune de Trélex",
+   "steigerung": {
+    "datum": "2027-04-15",
+    "zeit": "10:00",
+    "ort": "Nyon, Avenue Reverdil 2, salle des ventes juridiques (3ème étage) de l'Office soussigné"
+   },
+   "eingabefrist": "2026-11-30",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 2
+   },
+   "amt": {
+    "name": "Offices des poursuites du district de Nyon",
+    "adresse": "Avenue Reverdil 2, 1260 Nyon 2"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005067",
+    "id": "1c60cbc4-d231-4dc4-8bf5-4cadbe861ba4",
+    "url": "https://www.shab.ch/#!/search/publications/detail/1c60cbc4-d231-4dc4-8bf5-4cadbe861ba4",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/1c60cbc4-d231-4dc4-8bf5-4cadbe861ba4/xml",
+    "datum": "2026-11-10",
+    "sprache": "fr"
+   },
+   "lat": 46.420555114746094,
+   "lon": 6.195647716522217,
    "genau": false
   },
   {
@@ -9179,6 +9260,39 @@
    },
    "lat": 47.283958435058594,
    "lon": 7.721607685089111,
+   "genau": false
+  },
+  {
+   "id": "SB06-0000007780",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt in St.",
+   "kanton": "SG",
+   "gemeinde": "St",
+   "grundbuch": "St",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "plz": "8735",
+    "ort": "St."
+   },
+   "beschreibung": "Die Grundstücksteigerung über die Liegenschaft 1087/S, Untergehren 1, 8735 St. Gallenkappel, Grundbuch St. Gallenkappel Gemeinde Eschenbach SG findet nicht am Donnerstag, 26.11.2026, 14.00 Uhr, statt. Ein allfällig neuer Termin würde wiederum publiziert werden. Es können keine Entschädigungsansprüche geltend gemacht werden.",
+   "amt": {
+    "name": "Gemeinde Eschenbach (SG) - Betreibungsamt",
+    "adresse": "Rickenstrasse 12, 8733 Eschenbach SG"
+   },
+   "quelle": {
+    "nummer": "SB06-0000007780",
+    "id": "391664fc-c4d8-476e-9ed6-e6a790c62c49",
+    "url": "https://www.shab.ch/#!/search/publications/detail/391664fc-c4d8-476e-9ed6-e6a790c62c49",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/391664fc-c4d8-476e-9ed6-e6a790c62c49/xml",
+    "datum": "2026-11-10",
+    "sprache": "de"
+   },
+   "lat": 46.49253845214844,
+   "lon": 7.397599697113037,
    "genau": false
   }
  ]
