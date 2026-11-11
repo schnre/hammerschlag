@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T13:30:29.603Z",
+ "stand": "2026-11-11T12:45:27.834Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -6282,6 +6282,96 @@
    "genau": false
   },
   {
+   "id": "SB01-0000005070",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Derendingen Nr",
+   "kanton": "SO",
+   "gemeinde": "Derendingen Nr",
+   "grundbuch": "Derendingen Nr",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 200000,
+   "beschreibung": "Grundbuch Derendingen Nr. 2113, 358 m2, Elsässli, mit Wohnhaus Nr. 8c an der Textilgasse, Gebäudeversicherung Fr. 291'017.00, Katasterwert Fr. 76'800.00, betreibungsamtliche Schatzung Fr. 200'000.00",
+   "steigerung": {
+    "datum": "2027-01-29",
+    "zeit": "15:30",
+    "ort": "Hotel H4 Solothurn, Schänzlistrasse 5, 4500 Solothurn, Seminarraum (Parterre)"
+   },
+   "eingabefrist": "2026-12-01",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Region Solothurn",
+    "adresse": "Rötistrasse 4, 4502 Solothurn"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005070",
+    "id": "d8450f1e-419b-460f-8431-f8f3c7d0a078",
+    "url": "https://www.shab.ch/#!/search/publications/detail/d8450f1e-419b-460f-8431-f8f3c7d0a078",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/d8450f1e-419b-460f-8431-f8f3c7d0a078/xml",
+    "datum": "2026-11-11",
+    "sprache": "de"
+   },
+   "lat": 47.193782806396484,
+   "lon": 7.59089994430542,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005071",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Tägerig",
+   "kanton": "AG",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Rigistrasse 8",
+    "plz": "5522",
+    "ort": "Tägerig"
+   },
+   "schaetzung": 1074000,
+   "beschreibung": "Aufgrund einer Terminänderung beim Steigerungslokal wird die Steigerung auf den 03.02.2027, 10.00 Uhr verschoben (ursprünglich 27.01.2027, 14 Uhr). Der Besichtigungstermin und die Eingabefrist bleibt gleich bzw. ist bereits abgelaufen.\nLiegenschaft Tägerig / 496 . Einfamilienhaus, Rigistrasse 8, 5522 Tägerig, Gebäude, 92m2, Strasse, Weg, 46m2, Gartenanlage, 341m2",
+   "steigerung": {
+    "datum": "2027-02-03",
+    "zeit": "10:00",
+    "ort": "Gemeindesaal, Gemeindezentrum, Bremgartenstrasse 2,, 5443 Niederrohrdorf"
+   },
+   "eingabefrist": "2026-11-02",
+   "amt": {
+    "name": "Betreibungsamt Heitersberg  Reusstal",
+    "adresse": "Bremgartenstrasse 2, 5443 Niederrohrdorf"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005071",
+    "id": "39bda355-aab6-4451-ac68-356f67680be8",
+    "url": "https://www.shab.ch/#!/search/publications/detail/39bda355-aab6-4451-ac68-356f67680be8",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/39bda355-aab6-4451-ac68-356f67680be8/xml",
+    "datum": "2026-11-11",
+    "sprache": "de"
+   },
+   "lat": 47.4012336730957,
+   "lon": 8.27647590637207,
+   "genau": true,
+   "gebaeude": {
+    "egid": "561327",
+    "baujahr": 1999,
+    "geschosse": 3,
+    "wohnungen": 1,
+    "grundflaeche": 138,
+    "heizung": "unbestimmt",
+    "fossil": false,
+    "klasse": 1110,
+    "wohnflaeche": 204,
+    "zimmer": 5
+   }
+  },
+  {
    "id": "SB01-0000005030",
    "art": "betreibung",
    "status": "aktiv",
@@ -9294,6 +9384,30 @@
    "lat": 46.49253845214844,
    "lon": 7.397599697113037,
    "genau": false
+  },
+  {
+   "id": "SB06-0000007787",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "Sonstiges",
+   "titel": "Objekt",
+   "kanton": "SO",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "beschreibung": "Die Grundstücksteigerung GB Bärschwil Nr. 1212 vom 13.01.2027 findet infolge Forderungszahlung nicht statt.",
+   "amt": {
+    "name": "Betreibungsamt Dorneck-Thierstein",
+    "adresse": "Amthausstrasse 15, 4143 Dornach"
+   },
+   "quelle": {
+    "nummer": "SB06-0000007787",
+    "id": "709fca51-a01b-4776-9de4-0a97533a8769",
+    "url": "https://www.shab.ch/#!/search/publications/detail/709fca51-a01b-4776-9de4-0a97533a8769",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/709fca51-a01b-4776-9de4-0a97533a8769/xml",
+    "datum": "2026-11-11",
+    "sprache": "de"
+   }
   }
  ]
 }
