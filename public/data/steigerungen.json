@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11T12:45:27.834Z",
+ "stand": "2026-11-12T13:48:34.472Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -1880,7 +1880,7 @@
   {
    "id": "KK08-0000001114",
    "art": "konkurs",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung in Balerna RFD",
    "kanton": "TI",
@@ -1924,7 +1924,7 @@
   {
    "id": "SB01-0000004934",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Flawil",
    "kanton": "SG",
