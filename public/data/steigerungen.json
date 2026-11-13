@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-12T13:48:34.472Z",
+ "stand": "2026-11-13T13:09:50.304Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -1983,7 +1983,7 @@
   {
    "id": "SB01-0000004939",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus, 5 Zimmer in Kleindöttingen",
    "kanton": "AG",
@@ -2040,7 +2040,7 @@
   {
    "id": "SB01-0000004912",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Chiasso",
    "kanton": "TI",
@@ -2077,7 +2077,7 @@
   {
    "id": "SB01-0000004872",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Serravalle-Malvaglia",
    "kanton": "TI",
@@ -2116,7 +2116,7 @@
   {
    "id": "SB01-0000004874",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in Gambarogno-Contone",
    "kanton": "TI",
@@ -7193,6 +7193,131 @@
    }
   },
   {
+   "id": "SB01-0000005016",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Curtilles",
+   "kanton": "VD",
+   "gemeinde": "Curtilles",
+   "grundbuch": "Curtilles",
+   "grundstueckNr": [
+    "376"
+   ],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 131000,
+   "beschreibung": "1) COMMUNE DE CURTILLES, immeuble RF 376 , feuille 8 du plan, au lieu dit &#34;La Coulaz&#34;, consistant en :\nHabitation et rural (ECA no 132) : 263 m2\nBâtiment (ECA no B14) : 10 m2\nBâtiment (ECA no B15) : 54 m2\nAccès place privée : 693 m2\nChamp, pré, pâturage : 34'019 m2\nSurface totale : 35'039 m2\nEstimation fiscale 2012 : Fr. 131'000.00\nValeur assurance incendie (int. 2026/142) : Fr. 726'614.00\nEstimation de l'office, selon rapport d'expertise : Fr. 624'000.00\n2) COMMUNE DE CURTILLES, immeuble RF 371 , feuille 8 du plan, au lieu dit &#34;La Gresallaire&#34;, consistant en :\nPré-champ d'une surface totale : 9'120 m2\nEstimation fiscale 2011 : Fr. 3'200.00\nEstimation de l'office selon rapport d'expertise : Fr. 36'480.00\n3) COMMUNE DE CURTILLES, immeuble RF 24 , feuille 11 du plan, au lieu-dit &#34;La Coulaz&#34;, consistant en :\nChamp, pré, pâturage : 6'995 m2\nForêt : 4'845 m2\nSurface totale : 11'800 m2\nEstimation fiscale 2011 : Fr. 3'200.00\nEstimation de l'office, selon rapport d'expertise : Fr. 27'597.00\n4) COMMUNE DE CURTILLES, immeuble RF 581 , feuille no. 11 du plan, au lieu dit &#34;La Coulaz&#34; consistant en :\nPré-champ : 5'050 m2\nForêt : 46 m2\nSurface totale : 5'096 m2\nEstimation fiscale 2011 : Fr. 2'500.00\nEstimation de l'office selon rapport d'expertise : Fr. 18'460.00.\nLes immeubles sont vendus séparément, bloc réservé.",
+   "steigerung": {
+    "datum": "2027-02-19",
+    "zeit": "09:30",
+    "ort": "Payerne, rue de la Gare 45, salle d'audience no 1."
+   },
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Offices des poursuites du district de la Broye - Vully",
+    "adresse": "Rue de la Gare 45, 1530 Payerne"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005016",
+    "id": "5fc13cda-62bc-4c09-89df-3d986511dac0",
+    "url": "https://www.shab.ch/#!/search/publications/detail/5fc13cda-62bc-4c09-89df-3d986511dac0",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/5fc13cda-62bc-4c09-89df-3d986511dac0/xml",
+    "datum": "2026-11-13",
+    "sprache": "fr"
+   },
+   "lat": 46.70069122314453,
+   "lon": 6.850890159606934,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005021",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Vully-Les-Lacs",
+   "kanton": "VD",
+   "gemeinde": "Vully-Les-Lacs",
+   "grundbuch": "Vully-Les-Lacs",
+   "grundstueckNr": [
+    "9516-3"
+   ],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 560000,
+   "beschreibung": "1) COMMUNE DE VULLY-LES-LACS, au lieu dit &#34;Autins, Les Autins 2&#34;, immeuble RF 9516-3, propriété par étages, soit part de 315/1000 de l'immeuble de base 9516, avec droit exclusif sur &#34;Etage et mezzanine, duplex avec balcon et terrasse, cave au sous-sol&#34;, constituant le lot no 3 des plans.\nEstimation fiscale (2014) : Fr. 560'000.00\nEstimation de l'office, selon rapport : Fr. 780'000.00.\n2) Part de copropriété de 1/6, immeuble RF 9516-7-5 sur COMMUNE DE VULLY-LES-LACS, au lieu dit &#34;Autins, Les Autins 2&#34;, immeuble RF 9516-7, propriété par étages, soit part de 24/1000 de l'immeuble de base 9516, avec droit exclusif sur &#34;Sous-sol, garage&#34;, (Observation place de parc no 5).\nEstimation fiscale (2014) : Fr. 15'000.00\nEstimation de l'office, selon rapport : Fr. 30'000.00.\n3) Part de copropriété de 1/6, immeuble RF 9516-7-6 sur COMMUNE DE VULLY-LES-LACS, au lieu dit &#34;Autins, Les Autins 2&#34;, immeuble RF 9516-7, propriété par étages, soit part de 24/1000 de l'immeuble de base 9516, avec droit exclusif sur &#34;Sous-sol, garage&#34;, (Observation place de parc no 6).\nEstimation fiscale (2014) : Fr. 15'000.00\nEstimation de l'office, selon rapport : Fr. 30'000.00.\nLes immeubles sont vendus séparément, bloc réservé.",
+   "steigerung": {
+    "datum": "2027-02-19",
+    "zeit": "14:00",
+    "ort": "Payerne, Rue de la Gare 45, salle d'audience no 1."
+   },
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 1
+   },
+   "amt": {
+    "name": "Offices des poursuites du district de la Broye - Vully",
+    "adresse": "Rue de la Gare 45, 1530 Payerne"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005021",
+    "id": "a94f086f-9e06-4c42-9dc7-91e2525e9043",
+    "url": "https://www.shab.ch/#!/search/publications/detail/a94f086f-9e06-4c42-9dc7-91e2525e9043",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/a94f086f-9e06-4c42-9dc7-91e2525e9043/xml",
+    "datum": "2026-11-13",
+    "sprache": "fr"
+   },
+   "lat": 46.92827606201172,
+   "lon": 7.014626502990723,
+   "genau": false
+  },
+  {
+   "id": "KK08-0000001129",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "Gewerbe",
+   "titel": "Gewerbeobjekt in Neuchâtel Autres indications",
+   "kanton": "NE",
+   "gemeinde": "Locle",
+   "grundbuch": "Locle",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Rue de Tivoli 28",
+    "plz": "2002",
+    "ort": "Neuchâtel Autres indications"
+   },
+   "beschreibung": "Bien-fonds RF N° 2494 du cadastre du Locle, immeuble avec hôtel restaurant de 22 chambres avec salles de bains, une salle de restaurant, une cuisine, deux salles de séminaires, locaux d'exploitation, un local commercial annexe (loué), situé Grande-Rue 1 au Locle.\nDésignation du bien-fonds à vendre:\n- surface totale: 826 m²\n- jardin: 104 m²\n- accès, place: 269 m²\n- habitation N° de construction 2159, Grande -Rue 1: 453 m²\n- partie de musée, local du feu N° de construction 2161, Rue Marie-Anne-Calame 6, 8 (-).\nEstimation cadastrale du bien-fonds (2014) : 48'000.00 francs. Estimation de l'experte (2026) : 3'900'000.00 francs. Les conditions de vente et l'état des charges seront disponibles à partir du : 04.12.2026 jusqu’au 19.02.2027. Lieu du dépôt des conditions de vente : Office des faillites, Rue de Tivoli 28, 2002 Neuchâtel Autres indications : Renseignements auprès de l’Office des faillites, tél. 032.889.82.20. Visite officielle le mardi 19.01.2027 à 14h00 sur inscription auprès de l’Office des faillites, tél. 032.889.82.20.",
+   "steigerung": {
+    "datum": "2027-02-19",
+    "zeit": "10:00",
+    "ort": "salle N° 4, 2ème étage, Tribunal régional des Montagnes et du Val-de-Ruz, Avenue Léopold-Robert 63, 2300 La Chaux-de-Fonds"
+   },
+   "besichtigung": "19.01.2027, 14:00 Uhr",
+   "auflage": "04.12.2026 bis 19.02.2027",
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Office des faillites du canton de Neuchâtel",
+    "adresse": "rue de Tivoli 28, 2002 Neuchâtel 2",
+    "telefon": "032.889.82.20"
+   },
+   "quelle": {
+    "nummer": "KK08-0000001129",
+    "id": "1ea1db59-5f35-45d9-bb80-953f090ef343",
+    "url": "https://www.shab.ch/#!/search/publications/detail/1ea1db59-5f35-45d9-bb80-953f090ef343",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/1ea1db59-5f35-45d9-bb80-953f090ef343/xml",
+    "datum": "2026-11-13",
+    "sprache": "fr"
+   }
+  },
+  {
    "id": "SB01-0000005032",
    "art": "betreibung",
    "status": "aktiv",
@@ -7230,6 +7355,69 @@
     "xml": "https://amtsblattportal.ch/api/v1/publications/069a138e-1b91-4f25-8b12-711b557e073b/xml",
     "datum": "2026-10-21",
     "sprache": "de"
+   }
+  },
+  {
+   "id": "SB01-0000005076",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 7½ Zimmer in Zollikon",
+   "kanton": "ZH",
+   "grundstueckNr": [
+    "1606",
+    "9998"
+   ],
+   "egrid": [
+    "CH512289237751"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Bergstrasse 25",
+    "plz": "8702",
+    "ort": "Zollikon"
+   },
+   "schaetzung": 6850000,
+   "flaecheGrundstueck": 800,
+   "zimmer": 7.5,
+   "beschreibung": "Grundbuch Blatt 1606, EGRID CH512289237751, Kataster 9998, Plan 12, Steppach, Bergstrasse 25, 8702 Zollikon\nGrundstückbeschreibung gemäss Grundbuchauszug vom 9. Februar 2024:\nAngaben der amtlichen Vermessung:\nKataster 9998, Plan 12, Steppach,\nGesamtfläche 800 m2, mit folgender Aufteilung:\nGebäude:\nGebäude Wohnen, Nr. 16100381, Bergstrasse 25, 157 m2\nBodenbedeckung:\nTrottoir, 26 m2\nGartenanlage, 441 m2\nbefestigte Fläche, 174 m2\nStrasse, Weg, 2 m2\nGebäude, 157 m2\nDas Grundstück ist mit einem Einfamilienhaus (Baujahr 2009; Renovationsjahr 2019; 7.5 Zimmer; Bruttowohnfläche 366 m2) überbaut.\nBetreibungsamtliche Schätzung\nFr. 6'850'000.00\nGrenzen laut Grundbuchplan. Anmerkungen, Vormerkungen und Dienstbarkeiten laut Grundbuchauszug.\nGeführte öffentliche Besichtigungen (ohne Voranmeldung; Besammlung jeweils beim Hauseingang Bergstrasse 25, 8702 Zollikon):\n- Mittwoch, 25. November 2026, 14:00 bis 15:00 Uhr\n- Mittwoch, 20. Januar 2027, 14:00 bis 15:00 Uhr\nWeitere Informationen zum Steigerungsobjekt werden auf dem digitalen Immobilienmarktplatz www.homegate.ch aufgeschaltet.",
+   "steigerung": {
+    "datum": "2027-02-24",
+    "zeit": "14:00",
+    "ort": "Gemeindesaal Zollikon, Rotfluhstrasse 96, 8702 Zollikon"
+   },
+   "besichtigung": "25.11.2026, 14:00 Uhr",
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Küsnacht-Zollikon-Zumikon",
+    "adresse": "Wilhofstrasse 1, 8125 Zollikerberg",
+    "web": "www.homegate.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005076",
+    "id": "dbbc8eff-66f1-4af6-b5d6-cf247c234cd2",
+    "url": "https://www.shab.ch/#!/search/publications/detail/dbbc8eff-66f1-4af6-b5d6-cf247c234cd2",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/dbbc8eff-66f1-4af6-b5d6-cf247c234cd2/xml",
+    "datum": "2026-11-13",
+    "sprache": "de"
+   },
+   "lat": 47.34131622314453,
+   "lon": 8.577678680419922,
+   "genau": true,
+   "gebaeude": {
+    "egid": "201020085",
+    "baujahr": 2010,
+    "geschosse": 3,
+    "wohnungen": 1,
+    "grundflaeche": 157,
+    "heizung": "unbestimmt",
+    "fossil": false,
+    "klasse": 1110,
+    "wohnflaeche": 297,
+    "zimmer": 7
    }
   },
   {
@@ -7899,6 +8087,185 @@
     "fossil": true,
     "klasse": 1122
    }
+  },
+  {
+   "id": "SB01-0000005055",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 5½ Zimmer in Erlen",
+   "kanton": "TG",
+   "gemeinde": "Erlen",
+   "grundbuch": "Erlen",
+   "grundstueckNr": [
+    "S38"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Aachstrasse 31",
+    "plz": "8586",
+    "ort": "Erlen"
+   },
+   "schaetzung": 680000,
+   "zimmer": 5.5,
+   "beschreibung": "Im Grundbuch Erlen Grundstück-Nr. S38\nBeschreibung Sonderrecht an der 5 1/2-Zimmer\nMaisonettewohnung Nr. 5 im Dach- und Galeriegeschoss\nBelastete Grundstücke 229/1000 Miteigentum Erlen Nr. 139 Gebäude/Bauten Adresse: Aachstrasse 31, 8586 Erlen\nDie Garage Nr. 21 ist zur alleinigen und ausschliesslichen Benutzung über das Beiblatt 4 zum Reglement der Stockwerkeigentümergemeinschaft der Stockwerkeinheit S38 zugewiesen.\nRechtskräftige betreibungsamtliche Schätzung Grundstück-Nr. S38: Fr. 680'000.00\nBeschrieb des zu Stockwerkeigentum aufgeteilten Grundstücks: Stammgrundstück: Grundbuchamt Erlen Nr. 139. Beschreibung Fläche 1464 m2 Plan-Nr. 11, Lagebezeichnung Roosewise, Bodenbedeckung Gebäude, 296 m2 Gartenanlage, 1051 m2, fliessendes Gewässer, 38 m2, Wald, 79 m2. Gebäude/Bauten Mehrfamilienhaus, Nummer: 194.291, Flaechenmass: 231 m2, Anteil auf Grundstück: 231 m2 Adresse: Aachstrasse 31 8586 Erlen. Garagen, Nummer: 194.299, Flaechenmass: 66 m2, Anteil auf Grundstück: 65 m2\nBetreibungsamtliche Schätzung des Grundstücks Nr. 139: Fr. 2'071'000.00",
+   "steigerung": {
+    "datum": "2027-04-05",
+    "zeit": "16:00",
+    "ort": "Ausbildungszentrum Galgenholz, Mehrzwecksaal, Thurstrasse 85, 8500 Frauenfeld"
+   },
+   "besichtigung": "23.02.2027, 14:00 Uhr",
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 1
+   },
+   "amt": {
+    "name": "Betreibungsamt Bezirk Weinfelden",
+    "adresse": "Bahnhofstrasse 22, 8570 Weinfelden",
+    "email": "betreibungsamt.weinfelden@tg.ch",
+    "web": "www.betreibungsamt.tg.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005055",
+    "id": "40d0eead-7d29-4d2a-b59e-fab102bb6c1e",
+    "url": "https://www.shab.ch/#!/search/publications/detail/40d0eead-7d29-4d2a-b59e-fab102bb6c1e",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/40d0eead-7d29-4d2a-b59e-fab102bb6c1e/xml",
+    "datum": "2026-11-13",
+    "sprache": "de"
+   },
+   "lat": 47.549896240234375,
+   "lon": 9.224726676940918,
+   "genau": true,
+   "gebaeude": {
+    "egid": "649642",
+    "baujahr": 1988,
+    "geschosse": 4,
+    "wohnungen": 6,
+    "grundflaeche": 231,
+    "heizung": "Gas",
+    "fossil": true,
+    "klasse": 1122
+   }
+  },
+  {
+   "id": "SB01-0000005065",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Bichelsee",
+   "kanton": "TG",
+   "gemeinde": "Bichelsee-Balterswil",
+   "grundbuch": "Bichelsee-Balterswil",
+   "grundstueckNr": [
+    "772"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Rüetschbergstrasse 5",
+    "plz": "8363",
+    "ort": "Bichelsee"
+   },
+   "schaetzung": 1187000,
+   "flaecheGrundstueck": 613,
+   "beschreibung": "Grundbuch Bichelsee-Balterswil\nLiegenschaft Nr. 772, Plan-Nr. 37, Niederhofen, Fläche 613 m2, Wohnhaus/Gebäude 151 m2, Gartenanlage 365 m2, Strasse/Weg 97 m2, Rüetschbergstrasse 5, 8363 Bichelsee\nRechtskräftige Schätzung der Liegenschaft Fr. 1'187'000.00",
+   "steigerung": {
+    "datum": "2027-04-05",
+    "zeit": "10:30",
+    "ort": "Ausbildungszentrum Galgenholz, Mehrzwecksaal, Thurstrasse, 85, 8500 Frauenfeld"
+   },
+   "besichtigung": "19.01.2027, 14:00 Uhr",
+   "auflage": "13.01.2027",
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfand"
+   },
+   "amt": {
+    "name": "Betreibungsamt Bezirk Münchwilen",
+    "adresse": "Murgtalstrasse 20, 9542 Münchwilen TG",
+    "email": "betreibungsamt.muenchwilen@tg.ch",
+    "web": "www.betreibungsamt.tg.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005065",
+    "id": "bcbf15a3-41b1-4e88-b2d3-334768735611",
+    "url": "https://www.shab.ch/#!/search/publications/detail/bcbf15a3-41b1-4e88-b2d3-334768735611",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/bcbf15a3-41b1-4e88-b2d3-334768735611/xml",
+    "datum": "2026-11-13",
+    "sprache": "de"
+   },
+   "lat": 47.45722198486328,
+   "lon": 8.907182693481445,
+   "genau": true,
+   "gebaeude": {
+    "egid": "190507789",
+    "baujahr": 2011,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 151,
+    "heizung": "unbestimmt",
+    "fossil": false,
+    "klasse": 1110,
+    "wohnflaeche": 180,
+    "zimmer": 5
+   }
+  },
+  {
+   "id": "SB01-0000005053",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Beschreibung",
+   "kanton": "TG",
+   "gemeinde": "Hauptwil-Gottshaus",
+   "grundbuch": "Hauptwil-Gottshaus",
+   "grundstueckNr": [
+    "2236",
+    "1201",
+    "992",
+    "475",
+    "18",
+    "220",
+    "63"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "plz": "2722",
+    "ort": "Beschreibung"
+   },
+   "schaetzung": 3750000,
+   "flaecheGrundstueck": 93913,
+   "beschreibung": "Im Grundbuch Hauptwil-Gottshaus:\nGrundstück Nr. 2236\nBeschreibung Fläche 93913 m2 Plan-Nr. 41 43, Lagebezeichnung Schweizerhaus Grootholz, Bodenbedeckung Strasse/Weg 916 m2 Gartenanlage 1250 m2 Acker/Wiese/Weide, 73790 m2 Wald 11965 m2 übrige befestigte Fläche 2599 m2 Gebäude 2969 m2 fliessendes Gewässer, 424 m2, Gebäude/Bauten Hühnerstall, Nummer: 281.658, Flaechenmass: 1201 m2 Anteil auf Grundstück: 1201 m2 Adresse: Schweizerhaus 1.4 9225 Wilen (Gottshaus) Scheune Stall, Nummer: 281.207 Flaechenmass: 992 m2, Anteil auf Grundstück: 992 m2, Adresse: Schweizerhaus 1.3 9225 Wilen (Gottshaus), Remise Nummer: 281.651 Flaechenmass: 475 m2 Anteil auf Grundstück: 475 m2 Adresse: Schweizerhaus 9225 Wilen (Gottshaus) Waschhaus Nummer: 281.208, Flaechenmass: 18 m2, Anteil auf Grundstück: 18 m2, Adresse: Schweizerhaus 1.1 9225 Wilen (Gottshaus), Wohnhaus Einstellhalle, Nummer: 281.206, Flaechenmass: 220 m2, Anteil auf Grundstück: 220 m2, Adresse: Schweizerhaus 1 9225 Wilen (Gottshaus), Einstellhalle Nummer: 281.209, Flaechenmass: 63 m2, Anteil auf Grundstück: 63 m2, Adresse: Schweizerhaus 1.2 9225 Wilen (Gottshaus)\nDas Grundstück gilt als landwirtschaftliches Gewerbe im\nSinne des BGBB.\nRechtskräftige betreibungsamtliche Schätzung des Grundstück Nr. 2236: Fr. 3'750'000.00\nAnzahlung: Fr. 380'000.00\nGrundstück Nr. 2246\nBeschreibung Fläche 14489 m2, Plan-Nr. 40, Lagebezeichnung Bette, Bodenbedeckung Strasse/Weg, 7 m2 Acker/Wiese/Weide, 14482 m2\nDas Grundstück gilt als landwirtschaftliches G",
+   "steigerung": {
+    "datum": "2027-04-05",
+    "zeit": "14:00",
+    "ort": "Ausbildungszentrum Galgenholz, Mehrzwecksaal, Thurstrasse 85, 8500 Frauenfeld"
+   },
+   "eingabefrist": "2026-12-03",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 2
+   },
+   "amt": {
+    "name": "Betreibungsamt Bezirk Weinfelden",
+    "adresse": "Bahnhofstrasse 22, 8570 Weinfelden",
+    "email": "betreibungsamt.weinfelden@tg.ch",
+    "web": "www.betreibungsamt.tg.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005053",
+    "id": "626a4040-3bcf-46ae-a60f-57b58aa07ff1",
+    "url": "https://www.shab.ch/#!/search/publications/detail/626a4040-3bcf-46ae-a60f-57b58aa07ff1",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/626a4040-3bcf-46ae-a60f-57b58aa07ff1/xml",
+    "datum": "2026-11-13",
+    "sprache": "de"
+   },
+   "lat": 46.73990249633789,
+   "lon": 7.548864364624023,
+   "genau": false
   },
   {
    "id": "SB01-0000004991",
