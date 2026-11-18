@@ -1,89 +1,8 @@
 {
- "stand": "2026-11-15T12:47:06.523Z",
+ "stand": "2026-11-18T14:03:42.700Z",
  "demo": false,
  "version": 3,
  "objekte": [
-  {
-   "id": "KK08-0000001109",
-   "art": "konkurs",
-   "status": "vorbei",
-   "kategorie": "Grundstueck",
-   "titel": "Grundstück in Dalpe",
-   "kanton": "TI",
-   "gemeinde": "Dalpe",
-   "grundbuch": "Dalpe",
-   "grundstueckNr": [
-    "197"
-   ],
-   "egrid": [],
-   "egid": [],
-   "schaetzung": 7023,
-   "beschreibung": "Bene immobile sito nel territorio del Comune di Dalpe, zona RFD.\nComune: DALPE\nNumero fondo: 197\nSuperficie totale: m² 3972\nUbicazione: Boll\nCOPERTURA DEL SUOLO\nNE m² 3'972 SUPERFICIE NON EDIFICATA\n- RIVESTIMENTO DURO\n- HUMUS\n- BOSCO\nPROPRIETA'\nRESINELLI LIVIO DOMENICO DIONIGI, 25.11.1926\nValore ufficiale di stima: CHF 7'023.00.\nValore di stima venale attribuito dall'Ufficio dei fallimenti: CHF 19'000.00.",
-   "steigerung": {
-    "datum": "2026-10-01",
-    "zeit": "09:30",
-    "ort": "presso la sala A al pianterreno dello stabile amministrativo, Via della Posta 9, 6600 Locarno"
-   },
-   "auflage": "01.09.2026",
-   "verwertung": {
-    "durch": "konkurs"
-   },
-   "amt": {
-    "name": "Ufficio fallimenti di Locarno e valli",
-    "adresse": "Via della Posta 9, 6600 Locarno",
-    "web": "www.ti.ch/aste."
-   },
-   "quelle": {
-    "nummer": "KK08-0000001109",
-    "id": "1c61ab51-9685-446d-b39c-91491dec3a6c",
-    "url": "https://www.shab.ch/#!/search/publications/detail/1c61ab51-9685-446d-b39c-91491dec3a6c",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/1c61ab51-9685-446d-b39c-91491dec3a6c/xml",
-    "datum": "2026-08-07",
-    "sprache": "it"
-   },
-   "lat": 46.458839416503906,
-   "lon": 8.760686874389648,
-   "genau": false
-  },
-  {
-   "id": "SB01-0000004879",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "Sonstiges",
-   "titel": "Objekt in Mont-Vully",
-   "kanton": "FR",
-   "gemeinde": "Mont-Vully",
-   "grundbuch": "Mont-Vully",
-   "grundstueckNr": [],
-   "egrid": [],
-   "egid": [],
-   "schaetzung": 16000,
-   "beschreibung": "Art. nos 1133 et 1135 commune de Mont-Vully, secteur Bas-Vully",
-   "steigerung": {
-    "datum": "2026-10-02",
-    "zeit": "11:00",
-    "ort": "Salle de concert de l’Hôtel de Ville, Rathausgasse 17, 3280 Morat"
-   },
-   "eingabefrist": "2026-08-27",
-   "verwertung": {
-    "durch": "pfaendung"
-   },
-   "amt": {
-    "name": "Betreibungsamt des Seebezirks - Office des poursuites du Lac",
-    "adresse": "Hallwylstrasse 12, 3280 Murten"
-   },
-   "quelle": {
-    "nummer": "SB01-0000004879",
-    "id": "1888f408-2f06-4133-9a01-283afa330615",
-    "url": "https://www.shab.ch/#!/search/publications/detail/1888f408-2f06-4133-9a01-283afa330615",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/1888f408-2f06-4133-9a01-283afa330615/xml",
-    "datum": "2026-08-07",
-    "sprache": "fr"
-   },
-   "lat": 46.95481872558594,
-   "lon": 7.087592124938965,
-   "genau": false
-  },
   {
    "id": "SB01-0000004897",
    "art": "betreibung",
@@ -2027,7 +1946,7 @@
   {
    "id": "SB01-0000004977",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung, 3½ Zimmer in Frick",
    "kanton": "AG",
@@ -2077,7 +1996,7 @@
   {
    "id": "SB01-0000004958",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Lauwil",
    "kanton": "BL",
@@ -5693,6 +5612,68 @@
    }
   },
   {
+   "id": "SB01-0000005087",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Männedorf",
+   "kanton": "ZH",
+   "gemeinde": "Männedorf",
+   "grundbuch": "Männedorf",
+   "grundstueckNr": [
+    "407",
+    "5676"
+   ],
+   "egrid": [
+    "CH960900000085"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Aufdorfstrasse 227",
+    "plz": "8708",
+    "ort": "Männedorf"
+   },
+   "schaetzung": 830000,
+   "beschreibung": "Grundstück\nIn der Gemeinde Männedorf : Wohnhaus mit Garten, Baujahr 1901\nGrundbuch Blatt 407, Kataster Nr. 5676, Aufdorfstrasse 227, 8708 Männedorf.\nGrenzen laut Grundbuchplan, Anmerkungen, Vormerkungen und Dienstbarkeiten laut Grundbuchauszug.\nBesichtigung\nMittwoch, 18. November 2026, 12.30 Uhr bis 14.30 Uhr; Besammlung vor der Liegenschaft Aufdorfstrasse 227, 8708 Männedorf.\nRechtskräftige betreibungsamtliche Schätzung\nFr. 830'000.00\nDie Verwertung erfolgt auf Verlangen der gesetzlichen Grundpfandgläubigerin (Gebäudeversicherung Kanton Zürich) und diverser weiterer Pfändungsgläubigern.",
+   "steigerung": {
+    "datum": "2027-01-25",
+    "zeit": "10:00",
+    "ort": "Kleiner Gemeindesaal, Zentrum Leue, Alte Landstrasse 250, 8708 Männedorf"
+   },
+   "besichtigung": "18.11.2026, 12:30 Uhr",
+   "eingabefrist": "2026-11-26",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Pfannenstiel",
+    "adresse": "Bahnhofstrasse 6, 8708 Männedorf"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005087",
+    "id": "5364a6db-5fa0-49f7-9669-3c4db647ad5f",
+    "url": "https://www.shab.ch/#!/search/publications/detail/5364a6db-5fa0-49f7-9669-3c4db647ad5f",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/5364a6db-5fa0-49f7-9669-3c4db647ad5f/xml",
+    "datum": "2026-11-18",
+    "sprache": "de"
+   },
+   "lat": 47.25733184814453,
+   "lon": 8.703166007995605,
+   "genau": true,
+   "gebaeude": {
+    "egid": "74159",
+    "baujahr": 1901,
+    "geschosse": 3,
+    "wohnungen": 2,
+    "grundflaeche": 70,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false,
+    "klasse": 1121,
+    "wohnflaeche": 180,
+    "zimmer": 6
+   }
+  },
+  {
    "id": "SB01-0000005046",
    "art": "betreibung",
    "status": "aktiv",
@@ -6032,6 +6013,66 @@
    "lat": 47.23642349243164,
    "lon": 9.038354873657227,
    "genau": true
+  },
+  {
+   "id": "KK08-0000001135",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 5½ Zimmer in Signau",
+   "kanton": "BE",
+   "grundstueckNr": [
+    "1562-8",
+    "1562-17-14",
+    "1562-17"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Dorfstrasse 86",
+    "plz": "3534",
+    "ort": "Signau"
+   },
+   "schaetzung": 350000,
+   "zimmer": 5.5,
+   "beschreibung": "Signau, Grundbuchblatt Nr. 1562-8, Dorfstrasse 86, 3534 Signau\nStockwerkeigentum, 5 1/2-Zimmerwohnung Nr. 8 und Nebenräume, im Dachgeschoss Mehrfamilienhaus Nr. 86\nKonkursamtliche Schätzung CHF 350'000.00\nSignau, Grundbuchblatt Nr. 1562-17-14, Dorfstrasse 84A, 3534 Signau\nMiteigentum zu 6/96 an Grundstück 1562-17 (Einstellhalle), 1 Einstellhallenplatz\nKonkursamtliche Schätzung CHF 29'000.00\nDie beiden Objekte werden als wirtschaftliche Einheit gemeinsam versteigert.",
+   "steigerung": {
+    "datum": "2027-01-28",
+    "zeit": "15:30",
+    "ort": "3400 Burgdorf, Kantonales Verwaltungszentrum Burgdorf, Neumatt, Sitzungszimmer EMME, Raum 7.3.11, Dunantstrasse 7b"
+   },
+   "besichtigung": "12.01.2027",
+   "auflage": "14.12.2026 bis 24.12.2026",
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Konkursamt Emmental-Oberaargau - Dienststelle Emmental-Oberaargau",
+    "adresse": "Jurastrasse 22, 4900 Langenthal",
+    "web": "www.schkg-be.ch"
+   },
+   "quelle": {
+    "nummer": "KK08-0000001135",
+    "id": "b3cbff91-4b52-4c98-9609-2ed6e39ba9b7",
+    "url": "https://www.shab.ch/#!/search/publications/detail/b3cbff91-4b52-4c98-9609-2ed6e39ba9b7",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/b3cbff91-4b52-4c98-9609-2ed6e39ba9b7/xml",
+    "datum": "2026-11-18",
+    "sprache": "de"
+   },
+   "lat": 46.916648864746094,
+   "lon": 7.720046520233154,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1421864",
+    "baujahr": 1999,
+    "geschosse": 3,
+    "wohnungen": 8,
+    "grundflaeche": 254,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1122,
+    "wohnflaeche": 135
+   }
   },
   {
    "id": "SB01-0000005054",
@@ -7351,6 +7392,109 @@
    }
   },
   {
+   "id": "SB01-0000005072",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 4½ Zimmer in Hersberg",
+   "kanton": "BL",
+   "gemeinde": "Hersberg",
+   "grundbuch": "Hersberg",
+   "grundstueckNr": [
+    "453"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "nweg 6 und 8 Zimmer Einfamilienhaus Grienweg 8",
+    "plz": "4423",
+    "ort": "Hersberg"
+   },
+   "schaetzung": 3,
+   "zimmer": 4.5,
+   "beschreibung": "Grundbuch Hersberg, Liegenschaft Nr. 453, haltend 1'994 m2. 4,5 Zimmer Einfamilienhaus Grienweg 6 und 8 Zimmer Einfamilienhaus Grienweg 8, 4423 Hersberg. Betreibungsamtliche Schätzung: CHF 3,6 Mio. Dokumentation unter www.bl.ch/baka-steigerung.",
+   "steigerung": {
+    "datum": "2027-03-02",
+    "zeit": "14:30",
+    "ort": "Konferenzraum Nr. 004a der Sicherheitsdirektion BL, Amtshausgasse 7, 4410 Liestal"
+   },
+   "besichtigung": "26.01.2027, 15:00 Uhr",
+   "eingabefrist": "2026-12-08",
+   "amt": {
+    "name": "Betreibungs- und Konkursamt des Kantons Basel-Landschaft - Abteilung Betreibungen",
+    "adresse": "Eichenweg 12, 4410 Liestal",
+    "web": "www.bl.ch/baka-steigerung."
+   },
+   "quelle": {
+    "nummer": "SB01-0000005072",
+    "id": "d761b92a-d577-4a5a-882c-d7f566b02d23",
+    "url": "https://www.shab.ch/#!/search/publications/detail/d761b92a-d577-4a5a-882c-d7f566b02d23",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/d761b92a-d577-4a5a-882c-d7f566b02d23/xml",
+    "datum": "2026-11-18",
+    "sprache": "de"
+   },
+   "lat": 47.492191314697266,
+   "lon": 7.782314777374268,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005075",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Bottmingen",
+   "kanton": "BL",
+   "gemeinde": "Bottmingen",
+   "grundbuch": "Bottmingen",
+   "grundstueckNr": [
+    "664"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Talholzstrasse 8",
+    "plz": "4103",
+    "ort": "Bottmingen"
+   },
+   "schaetzung": 1860000,
+   "beschreibung": "Grundbuch Bottmingen, Liegenschaft Nr. 664, haltend 708 m2. Einfamilienhaus, Talholzstrasse 8, 4103 Bottmingen. Betreibungsamtliche Schätzung: CHF 1'860'000.00. Dokumentation unter www.bl.ch/baka-steigerung.",
+   "steigerung": {
+    "datum": "2027-03-03",
+    "zeit": "14:30",
+    "ort": "Konferenzraum Nr. 004a der Sicherheitsdirektion BL, Amtshausgasse 7, 4410 Liestal"
+   },
+   "besichtigung": "27.01.2027, 15:00 Uhr",
+   "eingabefrist": "2026-12-08",
+   "amt": {
+    "name": "Betreibungs- und Konkursamt des Kantons Basel-Landschaft - Abteilung Betreibungen",
+    "adresse": "Eichenweg 12, 4410 Liestal",
+    "web": "www.bl.ch/baka-steigerung."
+   },
+   "quelle": {
+    "nummer": "SB01-0000005075",
+    "id": "58d22f8e-d955-4192-bb8c-57de7487f115",
+    "url": "https://www.shab.ch/#!/search/publications/detail/58d22f8e-d955-4192-bb8c-57de7487f115",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/58d22f8e-d955-4192-bb8c-57de7487f115/xml",
+    "datum": "2026-11-18",
+    "sprache": "de"
+   },
+   "lat": 47.521175384521484,
+   "lon": 7.571374416351318,
+   "genau": true,
+   "gebaeude": {
+    "egid": "401024",
+    "baujahr": 1963,
+    "geschosse": 2,
+    "wohnungen": 2,
+    "grundflaeche": 177,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1121,
+    "wohnflaeche": 195,
+    "zimmer": 6
+   }
+  },
+  {
    "id": "SB01-0000004924",
    "art": "betreibung",
    "status": "aktiv",
@@ -7514,6 +7658,64 @@
     "klasse": 1110,
     "wohnflaeche": 220,
     "zimmer": 7
+   }
+  },
+  {
+   "id": "SB01-0000005081",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus, 5½ Zimmer in Grellingen",
+   "kanton": "BL",
+   "gemeinde": "Grellingen",
+   "grundbuch": "Grellingen",
+   "grundstueckNr": [
+    "1018"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Neutalweg 10",
+    "plz": "4203",
+    "ort": "Grellingen"
+   },
+   "schaetzung": 700000,
+   "zimmer": 5.5,
+   "beschreibung": "Grundbuch Grellingen, Liegenschaft Nr. 1018, haltend 470 m2. 5,5 Zimmer Einfamilienhaus mit 1,5 Zimmer Einliegerwohnung im UG, Neutalweg 10, 4203 Grellingen. Betreibungsamtliche Schätzung: CHF 700'000.00. Dokumentation unter www.bl.ch/baka-steigerung.",
+   "steigerung": {
+    "datum": "2027-03-10",
+    "zeit": "14:30",
+    "ort": "Konferenzraum Nr. 004a der Sicherheitsdirektion BL, Amtshausgasse 7, 4410 Liestal"
+   },
+   "besichtigung": "02.02.2027, 15:00 Uhr",
+   "eingabefrist": "2026-12-08",
+   "amt": {
+    "name": "Betreibungs- und Konkursamt des Kantons Basel-Landschaft - Abteilung Betreibungen",
+    "adresse": "Eichenweg 12, 4410 Liestal",
+    "web": "www.bl.ch/baka-steigerung."
+   },
+   "quelle": {
+    "nummer": "SB01-0000005081",
+    "id": "2246bfc2-c6e8-40ce-af0c-b6099c6e254e",
+    "url": "https://www.shab.ch/#!/search/publications/detail/2246bfc2-c6e8-40ce-af0c-b6099c6e254e",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/2246bfc2-c6e8-40ce-af0c-b6099c6e254e/xml",
+    "datum": "2026-11-18",
+    "sprache": "de"
+   },
+   "lat": 47.438865661621094,
+   "lon": 7.593979358673096,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1366703",
+    "baujahr": 1964,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 161,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1110,
+    "wohnflaeche": 180,
+    "zimmer": 5
    }
   },
   {
