@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18T14:03:42.700Z",
+ "stand": "2026-11-20T14:03:58.429Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -2043,7 +2043,7 @@
   {
    "id": "SB01-0000004884",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Würenlos",
    "kanton": "AG",
@@ -2098,7 +2098,7 @@
   {
    "id": "KK08-0000001115",
    "art": "konkurs",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus, 6½ Zimmer in Oftringen Nr",
    "kanton": "AG",
@@ -2139,7 +2139,7 @@
   {
    "id": "KK08-0000001116",
    "art": "konkurs",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in Untersiggenthal Nr",
    "kanton": "AG",
@@ -2180,7 +2180,7 @@
   {
    "id": "SB01-0000004981",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Port-Valais",
    "kanton": "VS",
@@ -2217,7 +2217,7 @@
   {
    "id": "SB01-0000004960",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Tafers",
    "kanton": "FR",
@@ -2272,7 +2272,7 @@
   {
    "id": "SB01-0000004969",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Objekt in Düdingen",
    "kanton": "FR",
@@ -2326,7 +2326,7 @@
   {
    "id": "KK08-0000001117",
    "art": "konkurs",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Capriasca-Cagiallo",
    "kanton": "TI",
@@ -2369,7 +2369,7 @@
   {
    "id": "SB01-0000004920",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in Benken ZH",
    "kanton": "ZH",
@@ -2421,7 +2421,7 @@
   {
    "id": "SB01-0000004995",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Stabio",
    "kanton": "TI",
@@ -2459,7 +2459,7 @@
   {
    "id": "SB01-0000004978",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung, 3½ Zimmer in Merenschwand",
    "kanton": "AG",
@@ -2513,7 +2513,7 @@
   {
    "id": "SB01-0000004915",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in Bern",
    "kanton": "BE",
@@ -2555,7 +2555,7 @@
   {
    "id": "SB01-0000004892",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung, 3 Zimmer in Dietikon",
    "kanton": "ZH",
@@ -5288,6 +5288,88 @@
    "genau": false
   },
   {
+   "id": "KK08-0000001133",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "Grundstueck",
+   "titel": "Grundstück in Arbedo-Castione",
+   "kanton": "TI",
+   "gemeinde": "Arbedo-Castione",
+   "grundbuch": "Arbedo-Castione",
+   "grundstueckNr": [
+    "2838"
+   ],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 815,
+   "beschreibung": "Beni immobili siti nel territorio del Comune di Arbedo-Castione, zona RFD.\nComune: ARBEDO-CASTIONE\nNumero fondo: 2838\nSuperficie totale: m² 7951\nUbicazione: l'Òga\nCOPERTURA DEL SUOLO\nNE m² 7'951 SUPERFICIE NON EDIFICATA\n- BOSCO\nPROPRIETA'\nROLLI NOEMI, 28.01.1952\nValore di stima ufficiale: CHF 815.00.\nValore di stima attribuito dall'Ufficio dei fallimenti: CHF 1'000.00.",
+   "steigerung": {
+    "datum": "2027-01-14",
+    "zeit": "09:30",
+    "ort": "presso la sala A al pianterreno dello stabile amministrativo, Via della Posta 9, 6600 Locarno."
+   },
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Ufficio fallimenti di Mendrisio",
+    "adresse": "Via Pollini 29, 6850 Mendrisio",
+    "web": "www.ti.ch/aste."
+   },
+   "quelle": {
+    "nummer": "KK08-0000001133",
+    "id": "768107d6-ce93-4826-9e8c-0b8eb0896509",
+    "url": "https://www.shab.ch/#!/search/publications/detail/768107d6-ce93-4826-9e8c-0b8eb0896509",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/768107d6-ce93-4826-9e8c-0b8eb0896509/xml",
+    "datum": "2026-11-20",
+    "sprache": "it"
+   },
+   "lat": 46.20964813232422,
+   "lon": 9.068747520446777,
+   "genau": false
+  },
+  {
+   "id": "KK08-0000001131",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "Grundstueck",
+   "titel": "Grundstück in Arbedo-Castione",
+   "kanton": "TI",
+   "gemeinde": "Arbedo-Castione",
+   "grundbuch": "Arbedo-Castione",
+   "grundstueckNr": [
+    "2838"
+   ],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 815,
+   "beschreibung": "Beni immobili siti nel territorio del Comune di Arbedo-Castione, zona RFD.\nComune: ARBEDO-CASTIONE\nNumero fondo: 2838\nSuperficie totale: m² 7951\nUbicazione: l'Òga\nCOPERTURA DEL SUOLO\nNE m² 7'951 SUPERFICIE NON EDIFICATA\n- BOSCO\nPROPRIETA'\nROLLI NOEMI, 28.01.1952\nValore di stima ufficiale: CHF 815.00.\nValore di stima attribuito dall'Ufficio dei fallimenti: CHF 1'000.00.",
+   "steigerung": {
+    "datum": "2027-01-14",
+    "zeit": "09:30",
+    "ort": "presso la sala A al pianterreno dello stabile amministrativo, Via della Posta 9, 6600 Locarno."
+   },
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Ufficio fallimenti di Mendrisio",
+    "adresse": "Via Pollini 29, 6850 Mendrisio",
+    "web": "www.ti.ch/aste."
+   },
+   "quelle": {
+    "nummer": "KK08-0000001131",
+    "id": "588943bb-cff6-49c2-8572-be25ba9029bb",
+    "url": "https://www.shab.ch/#!/search/publications/detail/588943bb-cff6-49c2-8572-be25ba9029bb",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/588943bb-cff6-49c2-8572-be25ba9029bb/xml",
+    "datum": "2026-11-20",
+    "sprache": "it"
+   },
+   "lat": 46.20964813232422,
+   "lon": 9.068747520446777,
+   "genau": false
+  },
+  {
    "id": "SB01-0000005005",
    "art": "betreibung",
    "status": "aktiv",
@@ -6554,6 +6636,69 @@
    "genau": false
   },
   {
+   "id": "SB01-0000005059",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 4 Zimmer in Zürich",
+   "kanton": "ZH",
+   "gemeinde": "Bl",
+   "grundbuch": "Bl",
+   "grundstueckNr": [
+    "HI4589"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "beide Freiestrasse 206",
+    "plz": "8032",
+    "ort": "Zürich"
+   },
+   "schaetzung": 2150000,
+   "zimmer": 4,
+   "beschreibung": "Im Stadtquartier Zürich-Hirslanden, Zürich Kreis 7:\nGBBl. 2454, Stockwerkeigentum, 164/1000 Miteigentum am GBBl. 348, Kataster HI4589, mit Sonderrecht an der 4-Zimmer-Wohnung im 2. Obergeschoss mit Kellerabteil im Erdgeschoss\nGBBl. 2460, 1/9 Miteigentum (1 Parkplatz) an GBBl. 2458, Unterniveaugarage\nbeide Freiestrasse 206, 8032 Zürich.",
+   "steigerung": {
+    "datum": "2027-02-12",
+    "zeit": "10:00",
+    "ort": "Reformiertes Kirchgemeindehaus Hottingen, Grosser Saal, Asylstrasse 36, 8032 Zürich"
+   },
+   "besichtigung": "19.01.2027, 09:00 Uhr",
+   "auflage": "20.01.2027",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 1
+   },
+   "lage": {
+    "stock": 3100
+   },
+   "amt": {
+    "name": "Betreibungsamt Zürich 7",
+    "adresse": "Witikonerstrasse 15, 8032 Zürich"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005059",
+    "id": "15ce89e4-03c7-4abd-919b-e88b234d6a70",
+    "url": "https://www.shab.ch/#!/search/publications/detail/15ce89e4-03c7-4abd-919b-e88b234d6a70",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/15ce89e4-03c7-4abd-919b-e88b234d6a70/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.361026763916016,
+   "lon": 8.56582260131836,
+   "genau": true,
+   "gebaeude": {
+    "egid": "302019518",
+    "baujahr": 2003,
+    "geschosse": 7,
+    "wohnungen": 7,
+    "grundflaeche": 185,
+    "heizung": "Gas",
+    "fossil": true,
+    "klasse": 1122,
+    "wohnflaeche": 57
+   }
+  },
+  {
    "id": "SB01-0000004976",
    "art": "betreibung",
    "status": "aktiv",
@@ -6596,6 +6741,68 @@
    "lat": 47.207908630371094,
    "lon": 8.187088012695312,
    "genau": false
+  },
+  {
+   "id": "SB01-0000005097",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Männedorf",
+   "kanton": "ZH",
+   "gemeinde": "Männedorf",
+   "grundbuch": "Männedorf",
+   "grundstueckNr": [
+    "1952",
+    "7496"
+   ],
+   "egrid": [
+    "CH960900000085"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Schellenstrasse 27",
+    "plz": "8708",
+    "ort": "Männedorf"
+   },
+   "schaetzung": 1100000,
+   "beschreibung": "Grundstück\nIn der Gemeinde Männedorf : Wohnhaus mit Garage, Baujahr 1953\nGrundbuch Blatt 1952, Kataster Nr. 7496, Schellenstrasse 27, 8708 Männedorf.\nGrenzen laut Grundbuchplan, Anmerkungen, Vormerkungen und Dienstbarkeiten laut Grundbuchauszug.\nBesichtigung\nMontag, 30. November 2026, 12.30 Uhr bis 14.30 Uhr; Besammlung vor der Liegenschaft Schellenstrasse 27, 8708 Männedorf.\nRechtskräftige betreibungsamtliche Schätzung\nFr. 1'100'000.00\nDie Verwertung erfolgt auf Verlangen der gesetzlichen Grundpfandgläubigerin (Gebäudeversicherung Kanton Zürich) und diverser weiterer Pfändungsgläubigern.",
+   "steigerung": {
+    "datum": "2027-02-15",
+    "zeit": "10:00",
+    "ort": "Kleiner Gemeindesaal, Zentrum Leue, Alte Landstrasse 250, 8708 Männedorf"
+   },
+   "besichtigung": "30.11.2026, 12:30 Uhr",
+   "eingabefrist": "2026-12-10",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Pfannenstiel",
+    "adresse": "Bahnhofstrasse 6, 8708 Männedorf"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005097",
+    "id": "21cba65b-4587-4ba1-aa12-6b4c372b6a77",
+    "url": "https://www.shab.ch/#!/search/publications/detail/21cba65b-4587-4ba1-aa12-6b4c372b6a77",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/21cba65b-4587-4ba1-aa12-6b4c372b6a77/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.2606315612793,
+   "lon": 8.69731330871582,
+   "genau": true,
+   "gebaeude": {
+    "egid": "74112",
+    "baujahr": 1953,
+    "geschosse": 2,
+    "wohnungen": 1,
+    "grundflaeche": 65,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1110,
+    "wohnflaeche": 130,
+    "zimmer": 4
+   }
   },
   {
    "id": "SB01-0000005060",
@@ -7190,6 +7397,50 @@
    }
   },
   {
+   "id": "KK08-0000001134",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Neuchâtel Autres indications",
+   "kanton": "NE",
+   "gemeinde": "Locle",
+   "grundbuch": "Locle",
+   "grundstueckNr": [
+    "3582"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Rue de Tivoli 28",
+    "plz": "2002",
+    "ort": "Neuchâtel Autres indications"
+   },
+   "beschreibung": "PPE RF N° 10068/M du cadastre du Locle, appartement de 3.5 pièces, situé Rue Alexis-Marie-Piaget 12-14 au Locle. Désignation de la PPE à vendre:\n- 137.34/1000 de part de copropriété sur l'immeuble No 3582\nAvec droits spéciaux sur un appartement Ouest comprenant :\nEtages :\n- Combles : trois pièces, un hall, une cuisine, une salle de bain/wc, un wc/douche, un réduit 209 m²\n-Plus le local annexe suivant :\nSurcombles : Annexe M1, un galetas 42 m²\nSurface totale indicative 251 m²\nEstimation cadastrale de la PPE (2019) : 545'000.00 francs. Estimation de l'experte (2025) : 514'000.00 francs. Les conditions de vente et l'état des charges seront disponibles à partir du : 14.12.2026 jusqu’au 19.02.2027. Lieu du dépôt des conditions de vente : Office des faillites, Rue de Tivoli 28, 2002 Neuchâtel Autres indications : Renseignements auprès de l’Office des faillites, tél. 032.889.82.20. Visite officielle le jeudi 19.01.2027 à 14h00 sur inscription auprès de l’Office des faillites, tél. 032.889.82.20.",
+   "steigerung": {
+    "datum": "2027-02-19",
+    "zeit": "11:00",
+    "ort": "salle N° 4, 2ème étage, Tribunal régional des Montagnes et du Val-de-Ruz, Avenue Léopold-Robert 63, 2300 La Chaux-de-Fonds"
+   },
+   "besichtigung": "19.01.2027, 14:00 Uhr",
+   "auflage": "14.12.2026 bis 19.02.2027",
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Office des faillites du canton de Neuchâtel",
+    "adresse": "rue de Tivoli 28, 2002 Neuchâtel 2",
+    "telefon": "032.889.82.20"
+   },
+   "quelle": {
+    "nummer": "KK08-0000001134",
+    "id": "a9de9432-a9d9-4f16-9cc4-e62b5cd5df30",
+    "url": "https://www.shab.ch/#!/search/publications/detail/a9de9432-a9d9-4f16-9cc4-e62b5cd5df30",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/a9de9432-a9d9-4f16-9cc4-e62b5cd5df30/xml",
+    "datum": "2026-11-20",
+    "sprache": "fr"
+   }
+  },
+  {
    "id": "SB01-0000005032",
    "art": "betreibung",
    "status": "aktiv",
@@ -7329,6 +7580,96 @@
    },
    "lat": 46.44832229614258,
    "lon": 6.9359564781188965,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005085",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 4½ Zimmer in Emmenbrücke",
+   "kanton": "LU",
+   "gemeinde": "Emmen",
+   "grundbuch": "Emmen",
+   "grundstueckNr": [
+    "8344",
+    "2488",
+    "8450",
+    "2489"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "plz": "6020",
+    "ort": "Emmenbrücke"
+   },
+   "schaetzung": 402300,
+   "zimmer": 4.5,
+   "beschreibung": "Grundstück Nr. 8344, GB Emmen, 17/1000 Miteigentum an Grundstück Nr. 2488 mit Sonderrecht an der 4 1/2-Zimmerwohnung Nr. 407, B4, 7. Etage im Gebäude Nr. 2657 lt. Begründungserklärung und Aufteilungsplänen\nGrundstück Nr. 8450, GB Emmen, 6/1000 Miteigentum an Grundstück Nr. 2489 mit Sonderrecht an Einstellplatz Nr. 64 im 1. Untergeschoss im Gebäude Nr. 2660 lt. Begründungserklärung und Aufteilungsplänen\nOrtsbezeichnung: Schaubhus 3, 6020 Emmenbrücke\nKatasterschatzung: Fr. 402'300.00\nBetreibungsamtliche Schatzung: Fr. 580'000.00",
+   "steigerung": {
+    "datum": "2027-02-26",
+    "zeit": "14:00",
+    "ort": "Kultur- und Kongresszentrum Gersag, Rüeggisingerstrasse 20a, 6020 Emmenbrücke"
+   },
+   "besichtigung": "18.02.2027, 14:00 Uhr",
+   "eingabefrist": "2026-12-10",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Emmen",
+    "adresse": "Rüeggisingerstrasse 20, 6021 Emmenbrücke 1"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005085",
+    "id": "91249ba7-8a3e-4802-9e90-bb8412b58bb1",
+    "url": "https://www.shab.ch/#!/search/publications/detail/91249ba7-8a3e-4802-9e90-bb8412b58bb1",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/91249ba7-8a3e-4802-9e90-bb8412b58bb1/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.08824157714844,
+   "lon": 8.293478965759277,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005091",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Grenchen Nr",
+   "kanton": "SO",
+   "gemeinde": "Grenchen Nr",
+   "grundbuch": "Grenchen Nr",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 960000,
+   "beschreibung": "Grundbuch Grenchen Nr. 3045, 1'442 m2, Wohnhaus Nr. 99, Nebengebäude Nr. 99a und Nebengebäude Nr. 101 an der Bielstrasse, Katasterwert: Fr. 197'500.00, Gebäudeversicherung: Fr. 441'596.00 (Wohnhaus), Fr. 31'302.00 (Nebengebäude Nr. 99a) und Fr. 46'903.00 (Nebengebäude Nr. 101), betreibungsamtliche Schatzung: Fr. 960'000.00",
+   "steigerung": {
+    "datum": "2027-03-01",
+    "zeit": "14:00",
+    "ort": "Parktheater Grenchen, Lindenstrasse 41, 2540 Grenchen, Jurasaal"
+   },
+   "eingabefrist": "2026-12-10",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 2
+   },
+   "amt": {
+    "name": "Betreibungsamt Grenchen-Bettlach",
+    "adresse": "Marktplatz 22, 2540 Grenchen"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005091",
+    "id": "592a4ac0-a169-4594-92b5-534126076769",
+    "url": "https://www.shab.ch/#!/search/publications/detail/592a4ac0-a169-4594-92b5-534126076769",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/592a4ac0-a169-4594-92b5-534126076769/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.19990921020508,
+   "lon": 7.3800787925720215,
    "genau": false
   },
   {
@@ -7606,6 +7947,61 @@
    "genau": false
   },
   {
+   "id": "SB01-0000005099",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Mehrfamilienhaus in Wil",
+   "kanton": "SG",
+   "gemeinde": "Wil Gemeinde Wil",
+   "grundbuch": "Wil Gemeinde Wil",
+   "grundstueckNr": [
+    "535"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Glärnischstrasse 9",
+    "plz": "9500",
+    "ort": "Wil"
+   },
+   "beschreibung": "Grundbuch Wil Gemeinde Wil\nGrundstück Nr. 535, Glärnischstrasse 9, 9500 Wil\nWohn- und Geschäftshaus Vers.-Nr. 950, Glärnischstrasse 9, 9500 Wil SG\nGesamtfläche 507 m 2 , Gebäude 219 m 2 , Gartenanlage 288 m 2",
+   "steigerung": {
+    "datum": "2027-03-08",
+    "zeit": "09:00",
+    "ort": "Hof zu Wil, Auditorium, Marktgasse 88, 9500 Wil"
+   },
+   "besichtigung": "03.02.2027, 10:00 Uhr",
+   "eingabefrist": "2026-12-14",
+   "amt": {
+    "name": "Betreibungsamt Wil",
+    "adresse": "Marktgasse 58, 9500 Wil SG"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005099",
+    "id": "2759203d-23c2-4dd1-bcb9-668ff8753813",
+    "url": "https://www.shab.ch/#!/search/publications/detail/2759203d-23c2-4dd1-bcb9-668ff8753813",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/2759203d-23c2-4dd1-bcb9-668ff8753813/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.4604377746582,
+   "lon": 9.043675422668457,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1062406",
+    "baujahr": 1999,
+    "geschosse": 3,
+    "wohnungen": 5,
+    "grundflaeche": 125,
+    "heizung": "Gas",
+    "fossil": true,
+    "klasse": 1122,
+    "wohnflaeche": 276,
+    "zimmer": 11
+   }
+  },
+  {
    "id": "SB01-0000004949",
    "art": "betreibung",
    "status": "aktiv",
@@ -7769,6 +8165,175 @@
     "heizung": "Gas",
     "fossil": true,
     "klasse": 1122
+   }
+  },
+  {
+   "id": "SB01-0000005089",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 4½ Zimmer",
+   "kanton": "LU",
+   "grundstueckNr": [
+    "8184",
+    "701"
+   ],
+   "egrid": [
+    "CH113555550825"
+   ],
+   "egid": [],
+   "schaetzung": 380000,
+   "zimmer": 4.5,
+   "beschreibung": "Grundstück Nr.: 8184\nGrundbuch: Inwil\nE-Grid: CH1135555508256\nGrundstücksart: Stockwerkeigentum\nStockwerkeigentum: 164/1000 Miteigentum an Grundstück Nr. 701\nSonderrecht an der 4 1/2-Zimmerwohnung im 1. Obergeschoss Süd im Gebäude Nr. 338 It. Begründungserklärung und Aufteilungspläne\nKatasterschatzung: CHF 380'000.00\nBetreibungsamtliche Schatzung: CHF 605'000.00",
+   "steigerung": {
+    "datum": "2027-03-11",
+    "zeit": "11:00",
+    "ort": "Mehrzweckhalle, Zentrum Möösli, Hauptstrasse 52, 6034 Inwil"
+   },
+   "besichtigung": "18.02.2027, 10:30 Uhr",
+   "eingabefrist": "2026-12-10",
+   "lage": {
+    "stock": 3101
+   },
+   "amt": {
+    "name": "Betreibungsamt Kreis Hochdorf",
+    "adresse": "Sagenbachstrasse 1, 6280 Hochdorf"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005089",
+    "id": "e1147ed7-da78-48d5-82ad-aae4d1d706ac",
+    "url": "https://www.shab.ch/#!/search/publications/detail/e1147ed7-da78-48d5-82ad-aae4d1d706ac",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/e1147ed7-da78-48d5-82ad-aae4d1d706ac/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   }
+  },
+  {
+   "id": "SB01-0000005068",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 3 Zimmer in Winterthur",
+   "kanton": "ZH",
+   "grundstueckNr": [
+    "1",
+    "4901",
+    "SE8962"
+   ],
+   "egrid": [
+    "CH814309457736",
+    "CH967720085076",
+    "CH807743764593",
+    "CH974377914559",
+    "CH544345778351"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Etzbergstrasse 18",
+    "plz": "8405",
+    "ort": "Winterthur"
+   },
+   "schaetzung": 550000,
+   "zimmer": 3,
+   "beschreibung": "Grundstücke\nGesamtpfandgrundstücke (Grundstücke Nr. 1 bis 4) im Stadtquartier Winterthur-Seen:\nGrundstück Nr. 1\nStockwerkeigentum, Grundbuch Blatt 4901, EGRID CH814309457736, Etzbergstrasse 18, 8405 Winterthur,\n124/1000 Miteigentum an Grundstück Blatt 1328, Kataster SE8962, EGRID CH967720085076, Winterthur-Seen, mit dem Sonderrecht an der 3-Zimmerwohnung im 1. Obergeschoss rechts, mit zwei Kellerabteilen im Untergeschoss, in den Aufteilungsplänen Nrn. 1190, 1195 und 1196 mit der Farbe braun und mit 1 St. R gekennzeichnet, laut Begründungserklärung vom 13. Juni 1997, Beleg 312.\nBemerkung:\nGemäss Benutzung- und Verwaltungsreglement ist dem jeweiligen Eigentümer der Wohnung kein Parkplatz zugewiesen.\nKeine Dienstbarkeiten und Grundlasten. Anmerkungen, Vormerkungen und Grundpfandrechte laut Grundbuchauszug.\nRechtskräftige betreibungsrechtliche Schätzung: CHF 550'000.00\nGrundstück Nr. 2:\nStockwerkeigentum, Grundbuch Blatt 4903, EGRID CH807743764593, Etzbergstrasse 18, 8405 Winterthur,\n126/1000 Miteigentum an Grundstück Blatt 1328, Kataster SE8962, EGRID CH967720085076, Winterthur-Seen, mit dem Sonderrecht an der 3-Zimmerwohnung im 2. Obergeschoss rechts, mit zwei Kellerabteilen im Untergeschoss, in den Aufteilungsplänen Nrn. 1192, 1195 und 1196 mit der Farbe gelb und mit 2 St. R gekennzeichnet, laut Begründungserklärung vom 13. Juni 1997, Beleg 312 .\nBemerkung:\nGemäss Benutzung- und Verwaltungsreglement hat der jeweilige Eigentümer dieser Wohnung das ausschliessliche Benützungsrec",
+   "steigerung": {
+    "datum": "2027-03-12",
+    "zeit": "13:30",
+    "ort": "Alte Kaserne Kulturzentrum, Saal im Erdgeschoss, Technikumstrasse 8, 8400 Winterthur"
+   },
+   "besichtigung": "03.12.2026",
+   "eingabefrist": "2026-12-10",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 1
+   },
+   "lage": {
+    "stock": 3101,
+    "seite": "rechts"
+   },
+   "amt": {
+    "name": "Betreibungsamt Winterthur-Stadt",
+    "adresse": "Neustadtgasse 17, 8403 Winterthur",
+    "telefon": "052 267 41 74"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005068",
+    "id": "b30f2a56-5817-43e7-a698-4af37177ac9b",
+    "url": "https://www.shab.ch/#!/search/publications/detail/b30f2a56-5817-43e7-a698-4af37177ac9b",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/b30f2a56-5817-43e7-a698-4af37177ac9b/xml",
+    "datum": "2026-11-20",
+    "sprache": "de"
+   },
+   "lat": 47.49079895019531,
+   "lon": 8.763617515563965,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1155574",
+    "baujahr": 1966,
+    "geschosse": 4,
+    "wohnungen": 8,
+    "grundflaeche": 164,
+    "heizung": "Fernwärme",
+    "fossil": false,
+    "klasse": 1122,
+    "wohnflaeche": 72
+   }
+  },
+  {
+   "id": "SB01-0000005079",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Gibloux",
+   "kanton": "FR",
+   "gemeinde": "Gibloux",
+   "grundbuch": "Gibloux",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Route de la Tuffière 12",
+    "ort": "Gibloux"
+   },
+   "schaetzung": 1030000,
+   "beschreibung": "Commune de Gibloux (secteur Corpataux-Magnedens) :\nArticle 53-2\nAu lieu dit &#34;Route de la Tuffière 12&#34; à savoir:\nValeur de la part : 442/1000\nDroit exclusif sur l'unité no 2 : Appartement de 4,5 pièces, au rez-de-chaussée et premier étage, avec cave au rez-de-chaussée\nEstimation de l'office selon rapport de l'expert : CHF 1'030'000.00",
+   "steigerung": {
+    "datum": "2027-03-12",
+    "zeit": "10:00",
+    "ort": "en salle des ventes de l'office, rue de la Carrière 18-20, 1er étage, Fribourg"
+   },
+   "eingabefrist": "2026-12-10",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "lage": {
+    "stock": 3100
+   },
+   "amt": {
+    "name": "Office des poursuites de la Sarine",
+    "adresse": "Avenue Beauregard 13, 1700 Fribourg"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005079",
+    "id": "8e256c72-ecd3-4eb7-a4e4-3f8c2c556ade",
+    "url": "https://www.shab.ch/#!/search/publications/detail/8e256c72-ecd3-4eb7-a4e4-3f8c2c556ade",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/8e256c72-ecd3-4eb7-a4e4-3f8c2c556ade/xml",
+    "datum": "2026-11-20",
+    "sprache": "fr"
+   },
+   "lat": 46.74570846557617,
+   "lon": 7.099482536315918,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1520870",
+    "baujahr": 1999,
+    "geschosse": 1,
+    "wohnungen": 2,
+    "grundflaeche": 292,
+    "heizung": "Luft (Wärmepumpe)",
+    "fossil": false,
+    "klasse": 1121,
+    "wohnflaeche": 180
    }
   },
   {
