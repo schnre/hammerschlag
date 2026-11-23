@@ -1,133 +1,8 @@
 {
- "stand": "2026-11-20T14:03:58.429Z",
+ "stand": "2026-11-23T16:01:51.043Z",
  "demo": false,
  "version": 3,
  "objekte": [
-  {
-   "id": "SB01-0000004897",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "Sonstiges",
-   "titel": "Objekt in Crans-Montana",
-   "kanton": "VS",
-   "gemeinde": "Crans-Montana",
-   "grundbuch": "Crans-Montana",
-   "grundstueckNr": [
-    "14383"
-   ],
-   "egrid": [],
-   "egid": [],
-   "schaetzung": 3486,
-   "beschreibung": "Lot 1\nSUR LA COMMUNE DE CRANS-MONTANA\n- Parcelle n° 14383 , plan n° 75, Les Tovachières\nVigne 498 m2\nEstimation de l’Office selon rapport d’expertise : CHF 3'486.00\nIl s'agit d'une parcelle de vigne sise en zone agricole. Année de plantation 1973 / Sylvaner.\nLot 2\nSUR LA COMMUNE DE CRANS-MONTANA\n- Parcelle n° 14384, plan n° 75, Les Tovachières\nVigne 731 m2\nEstimation de l’Office selon rapport d’expertise : CHF 4'386.00\nIl s'agit d'une parcelle de vigne sise en zone agricole. Année de plantation 1970 / Chasselas.",
-   "steigerung": {
-    "datum": "2026-10-06",
-    "zeit": "15:00",
-    "ort": "salle de ventes de l'Office, au 1er étage du bâtiment \"Le Bourgeois\", Av. du Rothorn 2 à Sierre"
-   },
-   "eingabefrist": "2026-08-27",
-   "verwertung": {
-    "durch": "pfaendung"
-   },
-   "amt": {
-    "name": "Offices des poursuites et faillites du district de Sierre",
-    "adresse": "Avenue du Rothorn 2, 3960 Sierre",
-    "web": "www.vs.ch/web/spf/encheres."
-   },
-   "quelle": {
-    "nummer": "SB01-0000004897",
-    "id": "af33dd6e-b951-40a7-a589-9f9e1a4693ba",
-    "url": "https://www.shab.ch/#!/search/publications/detail/af33dd6e-b951-40a7-a589-9f9e1a4693ba",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/af33dd6e-b951-40a7-a589-9f9e1a4693ba/xml",
-    "datum": "2026-08-07",
-    "sprache": "fr"
-   },
-   "lat": 46.33052062988281,
-   "lon": 7.526416301727295,
-   "genau": false
-  },
-  {
-   "id": "SB01-0000004898",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "ETW",
-   "titel": "Eigentumswohnung in Lens",
-   "kanton": "VS",
-   "gemeinde": "Lens",
-   "grundbuch": "Lens",
-   "grundstueckNr": [],
-   "egrid": [],
-   "egid": [],
-   "schaetzung": 40000,
-   "beschreibung": "SUR LA COMMUNE DE LENS\n- PPE 54535 : quote-part 52/1000 de la PB 1160, plan n° 16, commune de Lens\nSous-sol : garage n° 2, sa part : 2/52\nEstimation de l’Office selon rapport d’expertise : CHF 40'000.00\nIl s'agit d'une place de parc sise dans la résidence « La Transhumance », Rte de Lens-Crans 33 à 3963 Crans-Montana.",
-   "steigerung": {
-    "datum": "2026-10-06",
-    "zeit": "15:00",
-    "ort": "salle de ventes de l'Office, au 1er étage du bâtiment \"Le Bourgeois\", Av. du Rothorn 2 à Sierre"
-   },
-   "eingabefrist": "2026-08-27",
-   "verwertung": {
-    "durch": "pfaendung"
-   },
-   "amt": {
-    "name": "Offices des poursuites et faillites du district de Sierre",
-    "adresse": "Avenue du Rothorn 2, 3960 Sierre",
-    "web": "www.vs.ch/web/spf/encheres."
-   },
-   "quelle": {
-    "nummer": "SB01-0000004898",
-    "id": "2da59497-ed52-4917-b34e-c19ac134d6dc",
-    "url": "https://www.shab.ch/#!/search/publications/detail/2da59497-ed52-4917-b34e-c19ac134d6dc",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/2da59497-ed52-4917-b34e-c19ac134d6dc/xml",
-    "datum": "2026-08-07",
-    "sprache": "fr"
-   },
-   "lat": 46.302738189697266,
-   "lon": 7.458160400390625,
-   "genau": false
-  },
-  {
-   "id": "SB01-0000004909",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "ETW",
-   "titel": "Eigentumswohnung, 5½ Zimmer in Dänikon ZH",
-   "kanton": "ZH",
-   "gemeinde": "Dänikon ZH",
-   "grundbuch": "Dänikon ZH",
-   "grundstueckNr": [
-    "626"
-   ],
-   "egrid": [
-    "CH287746347707",
-    "CH767735907034",
-    "CH394677783470"
-   ],
-   "egid": [],
-   "zimmer": 5.5,
-   "beschreibung": "In der Gemeinde Dänikon ZH, laut Grundbuchauszug Blatt 1700, EGRID CH287746347707\nStockwerkeigentum 205/1000 Miteigentum am Grundstück Blatt 1474, Kataster 626, EGRID CH767735907034 mit Sonderrecht an der 5 ½ Zimmer Gartenwohnung Nr. 3\nEs bestehen für diese Stockwerkeinheit zwei Garagenplätze Nr. 7 + 8 ausschliessliche Benützungsrechte.\nIn der Gemeinde Dänikon ZH, laut Grundbuchauszug Blatt 1704, EGRID CH394677783470\nStockwerkeigentum 5/1000 Miteigentum am Grundstück Blatt 1474, Kataster 626, EGRID CH767735907034 mit Sonderrecht am Bastelraum A",
-   "steigerung": {
-    "datum": "2026-10-07",
-    "zeit": "14:00",
-    "ort": "Gemeindesaal PEMO-Arena, kleiner Saal, Drisglerstrasse 1a, 8107 Buchs ZH"
-   },
-   "besichtigung": "18.08.2026, 09:00 Uhr",
-   "eingabefrist": "2026-08-27",
-   "amt": {
-    "name": "Betreibungsamt Furttal",
-    "adresse": "Badenerstrasse 1, 8107 Buchs ZH"
-   },
-   "quelle": {
-    "nummer": "SB01-0000004909",
-    "id": "2ffc1d8b-d3ea-4471-832c-b6a3947937e9",
-    "url": "https://www.shab.ch/#!/search/publications/detail/2ffc1d8b-d3ea-4471-832c-b6a3947937e9",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/2ffc1d8b-d3ea-4471-832c-b6a3947937e9/xml",
-    "datum": "2026-08-07",
-    "sprache": "de"
-   },
-   "lat": 47.44343566894531,
-   "lon": 8.404430389404297,
-   "genau": false
-  },
   {
    "id": "SB01-0000004913",
    "art": "betreibung",
@@ -2618,7 +2493,7 @@
   {
    "id": "SB01-0000004947",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Bürglen OW",
    "kanton": "OW",
@@ -2681,7 +2556,7 @@
   {
    "id": "SB01-0000004893",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Epalinges",
    "kanton": "VD",
@@ -9278,6 +9153,117 @@
    },
    "lat": 45.989749908447266,
    "lon": 8.877185821533203,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005093",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Vacallo",
+   "kanton": "TI",
+   "gemeinde": "Vacallo",
+   "grundbuch": "Vacallo",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 219728,
+   "beschreibung": "In territorio del Comune di Vacallo (RFD)\nFoglio PPP 30984 (93/1000) comproprietà del fondo Part. 9\ncon diritto esclusivo sull’unità Nr. 11, al livello 03, composta di: ingresso, soggiorno + sala pranzo, cucina, doccia, bagno, due camere, due balconi.\nIntestatari del fondo: quota A 3/10 BERNASCO Clara, 09.02.1973 (debitore)\nquota B 7/10 ROGGERI Riccardo, 20.03.1975 (debitore)\nValore di stima Ufficiale CHF 219'728.31\nValore di stima Peritale CHF 630'000.00",
+   "steigerung": {
+    "datum": "2027-05-13",
+    "zeit": "14:45",
+    "ort": "Sala Consiglio Comunale di Mendrisio, Piazza Municipio 13, 6850 Mendrisio"
+   },
+   "eingabefrist": "2026-12-14",
+   "amt": {
+    "name": "Ufficio esecuzione di Mendrisio",
+    "adresse": "Via Pollini 29, 6850 Mendrisio",
+    "web": "www.ti.ch/aste"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005093",
+    "id": "560f23bf-f713-413d-9226-943a0deb5b5b",
+    "url": "https://www.shab.ch/#!/search/publications/detail/560f23bf-f713-413d-9226-943a0deb5b5b",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/560f23bf-f713-413d-9226-943a0deb5b5b/xml",
+    "datum": "2026-11-23",
+    "sprache": "it"
+   },
+   "lat": 45.84731674194336,
+   "lon": 9.038311004638672,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005096",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Melide",
+   "kanton": "TI",
+   "gemeinde": "Melide",
+   "grundbuch": "Melide",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 140942,
+   "beschreibung": "In territorio del Comune Melide\n1. Part. 104\nUbicazione Cantine di Mezzo\nA mq 75 Edificio\nNE mq 111 Superficie non edificata (rivestimento duro, humus)\nValore di stima Ufficiale: CHF 140'942.00\nValore di stima Peritale: CHF 454'000.00\n2. Part. 107\nUbicazione Cantine di Mezzo\nNE mq 10 Superficie non edificata (rivestimento duro)\nValore di stima Ufficiale: CHF 764.00\nValore di stima Peritale: nessun valore venale",
+   "steigerung": {
+    "datum": "2027-05-13",
+    "zeit": "15:15",
+    "ort": "Sala Consiglio Comunale di Mendrisio, Piazza Municipio 13, 6850 Mendrisio"
+   },
+   "eingabefrist": "2026-12-14",
+   "amt": {
+    "name": "Ufficio esecuzione di Mendrisio",
+    "adresse": "Via Pollini 29, 6850 Mendrisio",
+    "web": "www.ti.ch/aste"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005096",
+    "id": "11ca786e-44c4-4217-89af-fce50c06552c",
+    "url": "https://www.shab.ch/#!/search/publications/detail/11ca786e-44c4-4217-89af-fce50c06552c",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/11ca786e-44c4-4217-89af-fce50c06552c/xml",
+    "datum": "2026-11-23",
+    "sprache": "it"
+   },
+   "lat": 45.95760726928711,
+   "lon": 8.950925827026367,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005090",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Pura",
+   "kanton": "TI",
+   "gemeinde": "Pura",
+   "grundbuch": "Pura",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 196713,
+   "beschreibung": "In territorio del Comune di Pura (RFD)\nFoglio PPP 38279 (320/1000) comproprietà del fondo Part. 1384\ncon diritto esclusivo sull’unità n. 3 composta di: soggiorno/pranzo, camera, 2 bagni, disimpegno, dispensa, al PT; come al piano di ripartizione.\nValore di stima Ufficiale CHF 196'713.60\nValore di stima Peritale CHF 640'000.00",
+   "steigerung": {
+    "datum": "2027-05-13",
+    "zeit": "14:15",
+    "ort": "Sala Consiglio Comunale di Mendrisio, Piazza Municipio 13, 6850 Mendrisio"
+   },
+   "eingabefrist": "2026-12-14",
+   "amt": {
+    "name": "Ufficio esecuzione di Mendrisio",
+    "adresse": "Via Pollini 29, 6850 Mendrisio",
+    "web": "www.ti.ch/aste"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005090",
+    "id": "734c9c55-3b01-4bf9-b5f2-5b85bdc11cd6",
+    "url": "https://www.shab.ch/#!/search/publications/detail/734c9c55-3b01-4bf9-b5f2-5b85bdc11cd6",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/734c9c55-3b01-4bf9-b5f2-5b85bdc11cd6/xml",
+    "datum": "2026-11-23",
+    "sprache": "it"
+   },
+   "lat": 45.98189926147461,
+   "lon": 8.867847442626953,
    "genau": false
   },
   {
