@@ -1,66 +1,8 @@
 {
- "stand": "2026-11-23T16:01:51.043Z",
+ "stand": "2026-11-26T15:21:20.718Z",
  "demo": false,
  "version": 3,
  "objekte": [
-  {
-   "id": "SB01-0000004913",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "EFH",
-   "titel": "Einfamilienhaus in Pfäffikon ZH",
-   "kanton": "ZH",
-   "gemeinde": "Pfäffikon",
-   "grundbuch": "Pfäffikon",
-   "grundstueckNr": [],
-   "egrid": [],
-   "egid": [],
-   "adresse": {
-    "strasse": "Dörflistrasse 8",
-    "plz": "8330",
-    "ort": "Pfäffikon ZH"
-   },
-   "schaetzung": 1047000,
-   "beschreibung": "Grundstückbeschreibung gemäss Grundbuchauszug vom 21 . Mai 2026:\nWohnhaus, Dörflistrasse 8, 8330 Pfäffikon ZH, GB-Blatt 1914, Kat. Nr. 5681\nGrundbuch Pfäffikon, GB-Blatt 1914, Kat. Nr. 5681, Plan 14, Irgenhausen, Dörflistrasse 8, 8330 Pfäffikon ZH\nAllein\nKläui Schneider Monika, Dörflistrasse 8, 8330 Pfäffikon ZH\nRechtskräftige betreibungsamtliche Schätzung\nFr. 1'047'000.00\nEine durch das Betreibungsamt in Auftrag gegebene Schätzung wurde am 25. Juni 2026 durch Elliscasis Immobilien GmbH durchgeführt. Die Schätzung ist durch die Mitteilung vom 6. Juli 2026 in Rechtskraft erwachsen. Diese Spezialanzeige gilt als Mitteilung des betreibungsamtlichen Schätzwerts gem. Art. 140 Abs. 3 SchKG.\nöffentliche Besichtigungen (Treffpunkt jeweils vor der Liegenschaft Dörflistrasse 8, 8330 Pfäffikon):\n– Dienstag, 18. August 2026, 14.00 bis 15.00 Uhr\n– Mittwoch, 23. September 2026, 14.00 bis 15.00 Uhr",
-   "steigerung": {
-    "datum": "2026-10-09",
-    "zeit": "09:00",
-    "ort": "Saal Schanz, Schanzweg 2, 8330 Pfäffikon ZH"
-   },
-   "besichtigung": "18.08.2026, 14:00 Uhr",
-   "auflage": "18.09.2026",
-   "eingabefrist": "2026-08-21",
-   "verwertung": {
-    "durch": "pfand"
-   },
-   "amt": {
-    "name": "Betreibungsamt Pfäffikon",
-    "adresse": "Hochstrasse 65, 8330 Pfäffikon ZH"
-   },
-   "quelle": {
-    "nummer": "SB01-0000004913",
-    "id": "1ac18b87-ed2f-4da9-9577-ceb6026c0fdb",
-    "url": "https://www.shab.ch/#!/search/publications/detail/1ac18b87-ed2f-4da9-9577-ceb6026c0fdb",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/1ac18b87-ed2f-4da9-9577-ceb6026c0fdb/xml",
-    "datum": "2026-08-11",
-    "sprache": "de"
-   },
-   "lat": 47.36150360107422,
-   "lon": 8.794376373291016,
-   "genau": true,
-   "gebaeude": {
-    "egid": "87523",
-    "baujahr": 1947,
-    "geschosse": 2,
-    "wohnungen": 1,
-    "grundflaeche": 66,
-    "heizung": "Elektrizität (direkt)",
-    "fossil": true,
-    "klasse": 1110,
-    "wohnflaeche": 75,
-    "zimmer": 4
-   }
-  },
   {
    "id": "SB01-0000004869",
    "art": "betreibung",
@@ -2613,7 +2555,7 @@
   {
    "id": "SB01-0000004946",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus, 7 Zimmer in Romanshorn",
    "kanton": "TG",
@@ -2677,7 +2619,7 @@
   {
    "id": "SB01-0000004894",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung, 4½ Zimmer in Kreuzlingen",
    "kanton": "TG",
@@ -6315,6 +6257,47 @@
    }
   },
   {
+   "id": "SB01-0000005100",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in B-Nr",
+   "kanton": "BE",
+   "gemeinde": "B-Nr",
+   "grundbuch": "B-Nr",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 400000,
+   "beschreibung": "Saxeten GBB-Nr. 42\nSchattenhalb, Plan-Nr. 2172, 2173\n- Ferienhaus Nr. 37\n- Gebäude/Bauten Nr. 37a\n- 7.58 Aren Platz, Umschwung\nAmtlicher Wert CHF 164'500.00\nBetreibungsamtliche Schätzung CHF 400'000.00",
+   "steigerung": {
+    "datum": "2027-02-09",
+    "zeit": "14:00",
+    "ort": "Sitzungszimmer, Schloss 5, 3800 Interlaken"
+   },
+   "eingabefrist": "2026-12-15",
+   "verwertung": {
+    "durch": "pfand"
+   },
+   "amt": {
+    "name": "Betreibungsamt Oberland, Dienststelle Oberland Ost",
+    "adresse": "Schloss 5, 3800 Interlaken",
+    "telefon": "031 636 77 99",
+    "web": "www.schkg-be.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005100",
+    "id": "62df85e1-c5f7-448e-9613-b690c5b2a51a",
+    "url": "https://www.shab.ch/#!/search/publications/detail/62df85e1-c5f7-448e-9613-b690c5b2a51a",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/62df85e1-c5f7-448e-9613-b690c5b2a51a/xml",
+    "datum": "2026-11-25",
+    "sprache": "de"
+   },
+   "lat": 47.13672637939453,
+   "lon": 7.3439106941223145,
+   "genau": false
+  },
+  {
    "id": "SB01-0000005036",
    "art": "betreibung",
    "status": "aktiv",
@@ -6508,6 +6491,51 @@
    },
    "lat": 45.8812370300293,
    "lon": 8.971078872680664,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000004862",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Mehrfamilienhaus in Mänimatte",
+   "kanton": "BE",
+   "gemeinde": "B-Nr",
+   "grundbuch": "B-Nr",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "plz": "4382",
+    "ort": "Mänimatte"
+   },
+   "beschreibung": "Frutigen GBB-Nr. 4382\nMänimatte, Winklenstrasse, Plan-Nr. 4451, 4471\n- Wohn- und Geschäftshaus Nr. 8\n- Parkplatz\n- 6.28 Aren Platz, Umschwung\nAmtlicher Wert CHF 368'700.00\nBetreibungsamtliche Schätzung 750'000.00",
+   "steigerung": {
+    "datum": "2027-02-11",
+    "zeit": "14:00",
+    "ort": "Sitzungszimmer, Schloss 5, 3800 Interlaken"
+   },
+   "eingabefrist": "2026-12-15",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 4
+   },
+   "amt": {
+    "name": "Betreibungsamt Oberland, Dienststelle Oberland Ost",
+    "adresse": "Schloss 5, 3800 Interlaken",
+    "telefon": "031 636 77 99",
+    "web": "www.schkg-be.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000004862",
+    "id": "52a837a6-af6f-4b2f-b5c9-6ed0abea3eb1",
+    "url": "https://www.shab.ch/#!/search/publications/detail/52a837a6-af6f-4b2f-b5c9-6ed0abea3eb1",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/52a837a6-af6f-4b2f-b5c9-6ed0abea3eb1/xml",
+    "datum": "2026-11-25",
+    "sprache": "de"
+   },
+   "lat": 46.0299186706543,
+   "lon": 8.919822692871094,
    "genau": false
   },
   {
@@ -6714,6 +6742,42 @@
    },
    "lat": 46.118350982666016,
    "lon": 8.811278343200684,
+   "genau": false
+  },
+  {
+   "id": "SB01-0000005101",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Moutier",
+   "kanton": "JU",
+   "gemeinde": "Moutier",
+   "grundbuch": "Moutier",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "schaetzung": 170000,
+   "beschreibung": "BAN DE MOUTIER\nPPE 1938-6\nBeauregard habitation n° 24, appartement 6\n3 ème étage sud\nQuote part : 55/1’000\nValeur officielle : CHF 92'800.00\nEstimation de l’Office des faillites selon rapport d’expert : CHF 170’000.00\nDescription :\nAppartement de 3 pièces, entrée, corridor, séjour, cuisine agencée, salle de bain, deux chambres à coucher, un balcon, une cave au sous-sol. L’appartement a été rénové ces dix dernières années et peut être habité sans rénovation totale, après les quelques réparations mineures.",
+   "steigerung": {
+    "datum": "2027-02-16",
+    "zeit": "10:00",
+    "ort": "Salle des ventes de l’Office des poursuites et faillites, Rue Auguste- Cuenin 15, 2900 Porrentruy"
+   },
+   "eingabefrist": "2026-12-16",
+   "amt": {
+    "name": "Office des poursuites et faillites du canton du Jura",
+    "adresse": "Rue Auguste-Cuenin 15, 2900 Porrentruy"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005101",
+    "id": "f3d3c3ba-c5e0-4da1-b5e9-e1f332b00351",
+    "url": "https://www.shab.ch/#!/search/publications/detail/f3d3c3ba-c5e0-4da1-b5e9-e1f332b00351",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/f3d3c3ba-c5e0-4da1-b5e9-e1f332b00351/xml",
+    "datum": "2026-11-26",
+    "sprache": "fr"
+   },
+   "lat": 47.27688980102539,
+   "lon": 7.3709564208984375,
    "genau": false
   },
   {
@@ -8252,6 +8316,66 @@
    "lat": 46.20769500732422,
    "lon": 7.041568279266357,
    "genau": false
+  },
+  {
+   "id": "KK08-0000001136",
+   "art": "konkurs",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Oberwil",
+   "kanton": "BL",
+   "gemeinde": "Oberwil",
+   "grundbuch": "Oberwil",
+   "grundstueckNr": [
+    "41"
+   ],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Therwilerstrasse 66",
+    "plz": "4104",
+    "ort": "Oberwil"
+   },
+   "schaetzung": 3600000,
+   "beschreibung": "Grundbuch Oberwil, Liegenschaft Nr. 41, haltend 1'457 m2. Einfamilienhaus, Therwilerstrasse 66, 4104 Oberwil. Konkursamtliche Schätzung CHF 3'600'000.00. Dokumentation unter www.bl.ch/baka-steigerung.",
+   "steigerung": {
+    "datum": "2027-03-16",
+    "zeit": "14:30",
+    "ort": "Konferenzraum Nr. 004a der Sicherheitsdirektion BL, Amtshausgasse 7, 4410 Liestal"
+   },
+   "besichtigung": "03.02.2027",
+   "auflage": "25.11.2026 bis 07.12.2026",
+   "verwertung": {
+    "durch": "konkurs"
+   },
+   "amt": {
+    "name": "Betreibungs- und Konkursamt des Kantons Basel-Landschaft - Abteilung Konkurse",
+    "adresse": "Eichenweg 12, 4410 Liestal",
+    "web": "www.bl.ch/baka-steigerung."
+   },
+   "quelle": {
+    "nummer": "KK08-0000001136",
+    "id": "c77618f9-67a5-4281-baa1-39b7abeff6bd",
+    "url": "https://www.shab.ch/#!/search/publications/detail/c77618f9-67a5-4281-baa1-39b7abeff6bd",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/c77618f9-67a5-4281-baa1-39b7abeff6bd/xml",
+    "datum": "2026-11-25",
+    "sprache": "de"
+   },
+   "lat": 47.510169982910156,
+   "lon": 7.561550617218018,
+   "genau": true,
+   "gebaeude": {
+    "egid": "409967",
+    "baujahr": 1947,
+    "geschosse": 3,
+    "wohnungen": 1,
+    "grundflaeche": 79,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1110,
+    "wohnflaeche": 120,
+    "zimmer": 7
+   }
   },
   {
    "id": "SB01-0000005039",
@@ -10358,6 +10482,50 @@
     "xml": "https://amtsblattportal.ch/api/v1/publications/709fca51-a01b-4776-9de4-0a97533a8769/xml",
     "datum": "2026-11-11",
     "sprache": "de"
+   }
+  },
+  {
+   "id": "SB06-0000007823",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "MFH",
+   "titel": "Objekt in Horw",
+   "kanton": "LU",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Kastanienbaumstrasse 51c",
+    "plz": "6048",
+    "ort": "Horw"
+   },
+   "beschreibung": "gemäss SHAB Meldungsnummer SB01-0000005048 vom 28.10.2026\nNeuer Steigerungstermin\n: Wird zu einem späteren Zeitpunkt mitgeteilt\nNeuer Besichtigungstermin\n: Wird zu einem späteren Zeitpunkt mitgeteilt",
+   "besichtigung": "03.12.2026",
+   "amt": {
+    "name": "Betreibungsamt Horw",
+    "adresse": "Gemeindehausplatz 19, 6048 Horw"
+   },
+   "quelle": {
+    "nummer": "SB06-0000007823",
+    "id": "a4e7bcdf-ab4a-47e7-bb66-f1abab0d1a8e",
+    "url": "https://www.shab.ch/#!/search/publications/detail/a4e7bcdf-ab4a-47e7-bb66-f1abab0d1a8e",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/a4e7bcdf-ab4a-47e7-bb66-f1abab0d1a8e/xml",
+    "datum": "2026-11-26",
+    "sprache": "de"
+   },
+   "lat": 47.023475646972656,
+   "lon": 8.319228172302246,
+   "genau": true,
+   "gebaeude": {
+    "egid": "160012143",
+    "baujahr": 2007,
+    "geschosse": 4,
+    "wohnungen": 6,
+    "grundflaeche": 356,
+    "heizung": "unbestimmt",
+    "fossil": false,
+    "klasse": 1122,
+    "zimmer": 31
    }
   }
  ]
