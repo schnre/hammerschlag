@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26T15:21:20.718Z",
+ "stand": "2026-11-27T15:08:48.434Z",
  "demo": false,
  "version": 3,
  "objekte": [
@@ -2678,7 +2678,7 @@
   {
    "id": "SB01-0000004992",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Ruswil",
    "kanton": "LU",
@@ -2718,7 +2718,7 @@
   {
    "id": "SB01-0000004999",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "MFH",
    "titel": "Mehrfamilienhaus in Rechtskräftige",
    "kanton": "SG",
@@ -2770,7 +2770,7 @@
   {
    "id": "SB01-0000005000",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Grundstueck",
    "titel": "Grundstück in St",
    "kanton": "SG",
@@ -2818,7 +2818,7 @@
   {
    "id": "SB01-0000004967",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung in Chamoson",
    "kanton": "VS",
@@ -2861,7 +2861,7 @@
   {
    "id": "KK08-0000001113",
    "art": "konkurs",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "Sonstiges",
    "titel": "Objekt in Ollon",
    "kanton": "VD",
@@ -2904,7 +2904,7 @@
   {
    "id": "SB01-0000004942",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "EFH",
    "titel": "Einfamilienhaus in Leuzigen",
    "kanton": "BE",
@@ -2960,7 +2960,7 @@
   {
    "id": "SB01-0000004630",
    "art": "betreibung",
-   "status": "aktiv",
+   "status": "vorbei",
    "kategorie": "ETW",
    "titel": "Eigentumswohnung in Maggia-Maggia",
    "kanton": "TI",
@@ -6781,6 +6781,52 @@
    "genau": false
   },
   {
+   "id": "SB01-0000005092",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung in Sierre",
+   "kanton": "VS",
+   "gemeinde": "Sierre",
+   "grundbuch": "Sierre",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "plz": "3960",
+    "ort": "Sierre"
+   },
+   "schaetzung": 525000,
+   "beschreibung": "SUR LA COMMUNE DE SIERRE\n- PPE n° 21933 : quote-part 18/100 du B-F Sierre/1334\nSous-sol : cave n° 10 – 3 ème étage : appartement n° 17\n- PPE n° 21937 : quote-part 1/100 du B-F Sierre/1334\nExtérieur : garage n° 27\nVente en bloc\nEstimation de l’Office selon rapport d’expertise : CHF 525'000.00\nIl s'agit d’un appartement encore en chantier avec extension aux combles envisagée et d’un garage sis à la rue de Tservetta 20 à 3960 Sierre",
+   "steigerung": {
+    "datum": "2027-02-16",
+    "zeit": "15:00",
+    "ort": "salle de ventes de l'Office, au 1er étage du bâtiment \"Le Bourgeois\", Av. du Rothorn 2 à Sierre"
+   },
+   "besichtigung": "01.02.2027",
+   "eingabefrist": "2026-12-17",
+   "verwertung": {
+    "durch": "pfand",
+    "rang": 1
+   },
+   "amt": {
+    "name": "Offices des poursuites et faillites du district de Sierre",
+    "adresse": "Avenue du Rothorn 2, 3960 Sierre",
+    "web": "www.vs.ch/web/spf/encheres."
+   },
+   "quelle": {
+    "nummer": "SB01-0000005092",
+    "id": "b429fe29-e02d-4e37-b117-ed338fb4e2ce",
+    "url": "https://www.shab.ch/#!/search/publications/detail/b429fe29-e02d-4e37-b117-ed338fb4e2ce",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/b429fe29-e02d-4e37-b117-ed338fb4e2ce/xml",
+    "datum": "2026-11-27",
+    "sprache": "fr"
+   },
+   "lat": 46.27641296386719,
+   "lon": 7.508505821228027,
+   "genau": false
+  },
+  {
    "id": "SB01-0000005024",
    "art": "betreibung",
    "status": "aktiv",
@@ -6879,6 +6925,65 @@
     "klasse": 1121,
     "wohnflaeche": 235,
     "zimmer": 7
+   }
+  },
+  {
+   "id": "SB01-0000005109",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Eiken",
+   "kanton": "AG",
+   "gemeinde": "Eiken",
+   "grundbuch": "Eiken",
+   "grundstueckNr": [],
+   "egrid": [
+    "CH507716767421"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Gehrenstrasse 11",
+    "plz": "5074",
+    "ort": "Eiken"
+   },
+   "flaecheGrundstueck": 794,
+   "beschreibung": "Einfamilienhaus Grundbuch Eiken/4820\nGehrenstrasse 11, 5074 Eiken\nE-GRID: CH507716767421, Plan Nr. 30\nFläche: 794m² Gebäude 189m²\nÜbrige befestigte Fläche 108m²\nGartenanlage 497m²\nGebäude, Vers.-Nr. 481, 189 m2\nLiegenschaft im Gesamteigentum\nDas Steigerungsobjekt wird durch einen Erben mit Partnerin und Kind bewohnt.",
+   "steigerung": {
+    "datum": "2027-02-17",
+    "zeit": "14:00",
+    "ort": "Sitzungszimmer Frickberg, 1. Obergeschoss, Gemeindeverwaltung, Gemeindehausplatz 1, 5070 Frick"
+   },
+   "auflage": "23.04.1920",
+   "eingabefrist": "2026-12-17",
+   "verwertung": {
+    "durch": "pfand"
+   },
+   "amt": {
+    "name": "Betreibungsamt Region Frick",
+    "adresse": "Gemeindehausplatz 1, 5070 Frick"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005109",
+    "id": "51dca2c0-80b7-40ac-b6a3-d8f0f1fbd6c1",
+    "url": "https://www.shab.ch/#!/search/publications/detail/51dca2c0-80b7-40ac-b6a3-d8f0f1fbd6c1",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/51dca2c0-80b7-40ac-b6a3-d8f0f1fbd6c1/xml",
+    "datum": "2026-11-27",
+    "sprache": "de"
+   },
+   "lat": 47.53883743286133,
+   "lon": 7.9847307205200195,
+   "genau": true,
+   "gebaeude": {
+    "egid": "582011",
+    "baujahr": 1999,
+    "geschosse": 1,
+    "wohnungen": 1,
+    "grundflaeche": 190,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1110,
+    "wohnflaeche": 130,
+    "zimmer": 5
    }
   },
   {
@@ -7716,6 +7821,64 @@
    "lat": 47.492191314697266,
    "lon": 7.782314777374268,
    "genau": false
+  },
+  {
+   "id": "SB01-0000005094",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "EFH",
+   "titel": "Einfamilienhaus in Eriswil",
+   "kanton": "BE",
+   "gemeinde": "Bl-Nr",
+   "grundbuch": "Bl-Nr",
+   "grundstueckNr": [],
+   "egrid": [],
+   "egid": [],
+   "adresse": {
+    "strasse": "Hauptstrasse 35",
+    "plz": "4952",
+    "ort": "Eriswil"
+   },
+   "schaetzung": 275000,
+   "beschreibung": "Eriswil, GBBl-Nr. 1073\nHauptstrasse 35, 4952 Eriswil\nWohnhaus 100 m2\nGartenanlage 174 m2\nAmtlicher Wert: CHF 297'400.00\nBetreibungsamtliche Schätzung: CHF 275'000.00\nAlleineigentum: Bieniek Andreas",
+   "steigerung": {
+    "datum": "2027-03-02",
+    "zeit": "14:30",
+    "ort": "Betreibungsamt Emmental-Oberaargau, Dienstststelle Oberaargau, Multimediaraum im 3. Stock, Jurastrasse 22, 4900 Langenthal"
+   },
+   "eingabefrist": "2026-12-17",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "amt": {
+    "name": "Betreibungsamt Emmental-Oberaargau, Dienststelle Oberaargau",
+    "adresse": "Jurastrasse 22, 4900 Langenthal",
+    "telefon": "031 636 33 00",
+    "web": "www.schkg-be.ch"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005094",
+    "id": "3c5ff63e-0185-490f-8013-6de317cf67a6",
+    "url": "https://www.shab.ch/#!/search/publications/detail/3c5ff63e-0185-490f-8013-6de317cf67a6",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/3c5ff63e-0185-490f-8013-6de317cf67a6/xml",
+    "datum": "2026-11-27",
+    "sprache": "de"
+   },
+   "lat": 47.079315185546875,
+   "lon": 7.851254940032959,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1440665",
+    "baujahr": 1999,
+    "geschosse": 3,
+    "wohnungen": 2,
+    "grundflaeche": 100,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1121,
+    "wohnflaeche": 130,
+    "zimmer": 8
+   }
   },
   {
    "id": "SB01-0000005075",
@@ -9056,6 +9219,73 @@
    "lat": 46.420555114746094,
    "lon": 6.195647716522217,
    "genau": false
+  },
+  {
+   "id": "SB01-0000005074",
+   "art": "betreibung",
+   "status": "aktiv",
+   "kategorie": "ETW",
+   "titel": "Eigentumswohnung, 3 Zimmer in Winterthur",
+   "kanton": "ZH",
+   "grundstueckNr": [
+    "2458",
+    "1664",
+    "TO3393",
+    "4",
+    "2"
+   ],
+   "egrid": [
+    "CH240264777530",
+    "CH192078280837"
+   ],
+   "egid": [],
+   "adresse": {
+    "strasse": "Brünnelihöhestrasse 4",
+    "plz": "8400",
+    "ort": "Winterthur"
+   },
+   "schaetzung": 840000,
+   "zimmer": 3,
+   "beschreibung": "Grundstück\nIm Stadtquartier Winterthur-Töss\nStockwerkeigentum, Grundbuchblatt 2458, EGRID CH240264777530, Brünnelihöhestrasse 4, 8400 Winterthur\n61/1000 Miteigentum an Grundbuch Blatt 1664, Kataster TO3393, EGRID CH192078280837, Winterthur-Töss, mit dem Sonderrecht an der 3-Zimmer-Wohnung Nord im 1. Obergeschoss des Hauses Brünnelihöhestrasse 4, in den Aufteilungsplänen gelb bemalt und mit der Nr. 8 bezeichnet, laut Begründungserklärung Beleg 1993/85 und in den Aufteilungsplänen Beleg 1993/85.\nBemerkungen:\n1. Zur Wohnung gehört der Kellerraum Nr. 8, in den Aufteilungsplänen gelb schraffiert, zur ausschliesslichen und alleinigen Benützung des jeweiligen Eigentümers, gemäss Ziffer 14 und Beiblatt Nr. 4 lit. b), des Benützungs- und Verwaltungsreglement der Stockwerkeigentümergemeinschaft «Brünnelihöhe» Brünnelihöhestrasse 2/4, 8400 Winterthur, vom 28. Mai 1993, Beleg 86.\n2. Zur Wohnung gehört der Autoabstellplatz Nr. 2 im Freien, in den Aufteilungsplänen schwarz schraffiert, zur ausschliesslichen und alleinigen Benützung des jeweiligen Eigentümers, gemäss Ziffer 14 und Beiblatt Nr. 4 lit. c), des Benützungs- und Verwaltungsreglement der Stockwerkeigentümergemeinschaft «Brünnelihöhe» Brünnelihöhestrasse 2/4, 8400 Winterthur, vom 28. Mai 1993, Beleg 86 und dem Nachtrag zum Reglement (Zuweisung Autoabstellplätze im Freien), vom 05. August 2005, Beleg 196.\n3. Zur Wohnung gehört ein Balkon, in den Aufteilungsplänen gelb schraffiert, zur ausschliesslichen und alleinigen Benützung des ",
+   "steigerung": {
+    "datum": "2027-04-19",
+    "zeit": "13:30",
+    "ort": "Alte Kaserne Kulturzentrum, Saal im Erdgeschoss, Technikumstrasse 8, 8400 Winterthur"
+   },
+   "eingabefrist": "2026-12-17",
+   "verwertung": {
+    "durch": "pfaendung"
+   },
+   "lage": {
+    "stock": 3101
+   },
+   "amt": {
+    "name": "Betreibungsamt Winterthur-Stadt",
+    "adresse": "Neustadtgasse 17, 8403 Winterthur",
+    "telefon": "052 267 51 31"
+   },
+   "quelle": {
+    "nummer": "SB01-0000005074",
+    "id": "39fa1255-8b4b-4f59-86db-ea1bf52ab05d",
+    "url": "https://www.shab.ch/#!/search/publications/detail/39fa1255-8b4b-4f59-86db-ea1bf52ab05d",
+    "xml": "https://amtsblattportal.ch/api/v1/publications/39fa1255-8b4b-4f59-86db-ea1bf52ab05d/xml",
+    "datum": "2026-11-27",
+    "sprache": "de"
+   },
+   "lat": 47.49601364135742,
+   "lon": 8.707072257995605,
+   "genau": true,
+   "gebaeude": {
+    "egid": "1157084",
+    "baujahr": 1966,
+    "geschosse": 4,
+    "wohnungen": 6,
+    "grundflaeche": 202,
+    "heizung": "Heizöl",
+    "fossil": true,
+    "klasse": 1122,
+    "wohnflaeche": 78
+   }
   },
   {
    "id": "SB01-0000005033",
