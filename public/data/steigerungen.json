@@ -1,61 +1,8 @@
 {
- "stand": "2026-11-27T15:08:48.434Z",
+ "stand": "2026-11-28T14:15:15.509Z",
  "demo": false,
  "version": 3,
  "objekte": [
-  {
-   "id": "SB01-0000004869",
-   "art": "betreibung",
-   "status": "vorbei",
-   "kategorie": "ETW",
-   "titel": "Eigentumswohnung in Steg",
-   "kanton": "VS",
-   "gemeinde": "Steg-Hohtenn",
-   "grundbuch": "Steg-Hohtenn",
-   "grundstueckNr": [
-    "161"
-   ],
-   "egrid": [],
-   "egid": [],
-   "adresse": {
-    "plz": "3940",
-    "ort": "Steg"
-   },
-   "schaetzung": 120,
-   "flaecheGrundstueck": 207,
-   "beschreibung": "Gemeinde Steg-Hohtenn, Sektor Steg – Adresse: Oberdorf 20, 3940 Steg\n- StWE-Anteil Nr. 161-1, Wertquote 352/1‘000, Sonderrecht an der Wohnung Nr. 6,\nam Keller Nr. 4 und Keller Nr. 5, gelegen im 1. Stock\nHauptgrundstück Nr. 161, Plan-Nr. 1, „Oberdorf“, Gesamtfläche 207 m², Wohngebäude, Gebäudenummer: 13, 140 m², Wohngebäude, Gebäudenummer: 15, 1 m², Acker, Wiese,\n24 m², übrige befestigte Fläche, 42 m²\nRechtskräftige betreibungsamtliche Schatzung: CHF 120‘000.00\n- Grundstück Nr. 59, Plan-Nr. 1, „Oberdorf“, Gartenanlage, 16 m²\nRechtskräftige betreibungsamtliche Schatzung: CHF 5‘000.00\nDer StWE-Anteil Nr. 161-1 und das Grundstück Nr. 59 sind mit einem Gesamtpfand belastet. Nach dem Einzelruf erfolgt der Gesamtruf.",
-   "steigerung": {
-    "datum": "2026-10-13",
-    "zeit": "10:00",
-    "ort": "Landwirtschaftszentrum Visp (Aula), Talstrasse 3, 3930 Visp"
-   },
-   "eingabefrist": "2026-08-03",
-   "verwertung": {
-    "durch": "pfand",
-    "rang": 1
-   },
-   "lage": {
-    "stock": 3101
-   },
-   "amt": {
-    "name": "Betreibungsamt Oberwallis",
-    "adresse": "Kantonsstrasse 6, 3930 Visp",
-    "email": "verwertung-ba-ow@admin.vs.ch",
-    "telefon": "027 606 16 70",
-    "web": "www.vs.ch/web/spf/encheres"
-   },
-   "quelle": {
-    "nummer": "SB01-0000004869",
-    "id": "f9462dd4-f64d-4f7c-a2c6-731fba9883b9",
-    "url": "https://www.shab.ch/#!/search/publications/detail/f9462dd4-f64d-4f7c-a2c6-731fba9883b9",
-    "xml": "https://amtsblattportal.ch/api/v1/publications/f9462dd4-f64d-4f7c-a2c6-731fba9883b9/xml",
-    "datum": "2026-07-14",
-    "sprache": "de"
-   },
-   "lat": 46.33474349975586,
-   "lon": 7.768118858337402,
-   "genau": false
-  },
   {
    "id": "KK08-0000001111",
    "art": "konkurs",
